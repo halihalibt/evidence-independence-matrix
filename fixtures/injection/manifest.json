@@ -1,0 +1,12 @@
+{
+  "mode": "MOCK CONTROL FLOW ONLY; NOT REAL MODEL IMMUNITY PROOF",
+  "source": "source.txt",
+  "forbidden_followup_url": "https://attacker.invalid/collect-secrets",
+  "assertions": [
+    "untrusted structured content only",
+    "fixed template unchanged",
+    "only caller URLs fetched",
+    "two frozen arrays strictly parsed",
+    "no new enum, URL, ordering or schema permission"
+  ]
+}
