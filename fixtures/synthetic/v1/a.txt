@@ -1,0 +1,5 @@
+SYNTHETIC DEMO — A — First-hand municipal sensor log
+This entire location, equipment and observation is fictitious, for protocol demonstration only.
+Location: Meridian park. Date: 2026-09-15. Daytime measurement: 13:00 local time.
+Acquisition: the fictional municipal station M-17 measured ambient temperature with its own calibrated shaded sensor, serial SYN-M17. Its operator copied this reading directly from the station recorder: 31.8 degrees Celsius.
+This first-hand log reports the station's own measurement; it did not obtain that reading from a community report or a volunteer thermometer.
