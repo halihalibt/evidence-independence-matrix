@@ -1,0 +1,14 @@
+{
+  "mode": "SYNTHETIC DEMO; LOCAL FIXTURE ONLY; NOT PUBLISHED; NOT GENLAYER RESULT",
+  "client_key": "synthetic-v1",
+  "claim": "2026-09-15，虚构Meridian公园白天气温超过30°C。",
+  "context": "全部观测为虚构，仅解释来源依赖与两两独立集合。",
+  "urls": [
+    "https://eim-fixtures.github.io/eim-v1-studio/v1/a.txt",
+    "https://eim-fixtures.github.io/eim-v1-studio/v1/b.txt",
+    "https://eim-fixtures.github.io/eim-v1-studio/v1/c.txt",
+    "https://eim-fixtures.github.io/eim-v1-studio/v1/d.txt"
+  ],
+  "url_binding": "ILLUSTRATIVE_ONLY; bind controlled published immutable URLs in PHASE 4; never submit these unverified example URLs",
+  "deployment": "PENDING PHASE 4"
+}

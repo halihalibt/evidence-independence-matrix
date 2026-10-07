@@ -1,0 +1,11 @@
+{
+  "mode": "PREPARED INPUT ONLY; NOT GENLAYER RESULT",
+  "client_key": "erc20-public-v1",
+  "claim": "ERC-20规范定义balanceOf用于返回指定账户的token余额。",
+  "context": "判断范围为规范规定的接口，不是代码是否独立开发。",
+  "urls": [
+    "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+    "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+  ],
+  "deployment": "PENDING PHASE 4"
+}
