@@ -1,0 +1,185 @@
+{
+  "transaction": "0xec875a1a5de724b7fd6a407e851ba736393ae508f330c1b94059c9f72191d7f4",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "result_code": 6,
+  "rounds": "1",
+  "leader_rotations": 0,
+  "initial_validators": 5,
+  "round_data": [
+    {
+      "round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader": [
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+              "result_status": "PARTIAL"
+            }
+          },
+          "llm_tokens": {
+            "node-0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2285,
+              "output": 45
+            }
+          }
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+              "result_status": "PARTIAL"
+            }
+          },
+          "llm_tokens": {
+            "node-0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47/policy:prd-gpt-5-4": {
+              "input": 3047,
+              "total": 3353,
+              "output": 306
+            }
+          }
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 3236,
+              "total": 3894,
+              "output": 658
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        },
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": 0,
+          "llm_tokens": {
+            "node-0xDB1c35c1f05d885999b8f13e5735307BcC16Be88/openai/gpt-5.4": {
+              "input": 3047,
+              "total": 3349,
+              "output": 302
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x3E5ee2507cc167C9925Bf10c67D7986581112024/policy:prd-gemini": {
+              "input": 3236,
+              "total": 3894,
+              "output": 658
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "actual_success_addresses": [
+        "0x4edbe1fc9eaec7b0eba849b0c76ae73eb0ad5c47",
+        "0x03d58a4def6fdfc032a56374785a5f571d07bc11",
+        "0xdb1c35c1f05d885999b8f13e5735307bcc16be88",
+        "0x3e5ee2507cc167c9925bf10c67d7986581112024"
+      ],
+      "actual_success_count": 4
+    }
+  ],
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024"
+    ],
+    "validator_votes_hash": [
+      "0x634deca1b35e8032d8243d04fbf795962e4ec4902a06129a504273be15801d4c",
+      "0xf648f3885875dba1be7c88ff8fd91a71d16207f67b366c8c4477da50ff1e3d4e",
+      "0x448f83f16319048b37c8b01bab26bf56b504a0688f6ee963e3a2f1bd2452bfc0",
+      "0x6b8ced9b82bf399cee6998cbbf37b17a30b791cb72afe9695063e96906bac035",
+      "0x4ec4768fd44cc16a5a26b0074e8d3b04aa865f79886923811aed6b2191d78419"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      2,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "DISAGREE",
+      "AGREE"
+    ]
+  },
+  "meaning": "Actual exposed executions/votes; identities do not prove different operators/model families. No private Validator candidate inferred."
+}

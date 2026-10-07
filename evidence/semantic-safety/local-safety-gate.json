@@ -1,0 +1,21 @@
+{
+  "gate": "PASS",
+  "time": "2026-10-07T06:26:42.625433+00:00",
+  "tests_total": 277,
+  "retained_cases": 251,
+  "focused_cases": 26,
+  "node_vectors": 3,
+  "production_sha256": "121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095",
+  "changed_functions": [
+    "parse_validation_output",
+    "validate_relation_anchors",
+    "validate_snapshot_candidate"
+  ],
+  "leader_prompt_unchanged": true,
+  "freeze_unchanged": true,
+  "business_class_and_methods_unchanged": true,
+  "schema_unchanged": true,
+  "test_mode": "OFFICIAL LOCKED SDK / MOCK HTTP MODEL AND CONSENSUS; NOT REAL-MODEL PROOF",
+  "historical_failures": "initial-test-failures.log/test-isolation-failures.log retained; corrected test-only fixture path and cloudpickle shared-context isolation",
+  "complexity": "LOW-MEDIUM; one Validator prompt, <=6 pairs/2 anchors each/360 codepoints, no new dependency"
+}

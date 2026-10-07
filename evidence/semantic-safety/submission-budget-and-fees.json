@@ -1,0 +1,14 @@
+{
+  "cash_spending": 0,
+  "new_faucet_requests": 0,
+  "funding": "Existing free Faucet GEN only",
+  "before_balance_wei": "2000000000000000000",
+  "after_balance_wei": "2000000000000000000",
+  "new_deployments": 1,
+  "new_business_transactions": 1,
+  "raw_submissions": 2,
+  "retries": 0,
+  "gas": "500000",
+  "gasPrice": "0",
+  "value": "0"
+}

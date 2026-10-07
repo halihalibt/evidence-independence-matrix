@@ -1,0 +1,139 @@
+{
+  "transaction": "0x2486995a27e99c7d3bd1da857e9af39b330eb2092f066edb780aa44caacd3007",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "result_code": 6,
+  "rounds": "1",
+  "leader_rotations": 0,
+  "initial_validators": 5,
+  "round_data": [
+    {
+      "round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": null
+          }
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": null
+          }
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "actual_success_addresses": [
+        "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3",
+        "0x90402341f0b0e97b23023c0a87de957fb7148e0f",
+        "0x4edbe1fc9eaec7b0eba849b0c76ae73eb0ad5c47",
+        "0x36728d2a123ab444e603ee5b2ad17d18bb193557",
+        "0x14402d49f317ce1a2f35bae01b1804a2a9703dcb"
+      ],
+      "actual_success_count": 5
+    }
+  ],
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+      "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb"
+    ],
+    "validator_votes_hash": [
+      "0xeffe4a8a300f8a7eb0d072b26b2dea686d816ee7de41cef4012ceb395aa1e007",
+      "0x1cf4091dc3018e0e8e60b4641661bf96cf74705c4f8049072076f0f293d226a9",
+      "0x1821495670f85338acb559d492042f627d71823f2089c375e220a1ae800c9594",
+      "0x7abe41550bb45509ef241c9089d7b4f9dd1895aa899739e1783e123272c32353",
+      "0x9c6ad7ab03334e0c640cdbf511b01044b00d68b83c8c0ac3f0fe100bb2c05ec5"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "meaning": "Actual exposed executions/votes; identities do not prove different operators/model families. No private Validator candidate inferred."
+}

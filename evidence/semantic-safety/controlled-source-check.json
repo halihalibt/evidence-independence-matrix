@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt",
+      "status": 200,
+      "raw_bytes": 602,
+      "raw_sha256": "d3de6a2930979c35661e296e46d05936a1834f4caa1e689af8a1de07ec7fdb18",
+      "normalized_codepoints": 597,
+      "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T06:27:16.739Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt",
+      "status": 200,
+      "raw_bytes": 451,
+      "raw_sha256": "d8fb0660c108a9df4d804344ab02aec5f62393c4412e4ff6698e9eaa503438ee",
+      "normalized_codepoints": 446,
+      "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T06:27:16.910Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt",
+      "status": 200,
+      "raw_bytes": 661,
+      "raw_sha256": "f719a59f4c2c3fd6cb6820094ff23819fb32a62946b0f62f01e74ab777980de0",
+      "normalized_codepoints": 656,
+      "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T06:27:17.077Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt",
+      "status": 200,
+      "raw_bytes": 283,
+      "raw_sha256": "3c64d88a0ec8317337c109388f91a631d69cd46a4668e8fb8f1d6db31e1c627f",
+      "normalized_codepoints": 278,
+      "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T06:27:17.293Z"
+    }
+  ],
+  "scope": "READABILITY/BYTE EQUALITY; NOT CLASSIFICATION"
+}
