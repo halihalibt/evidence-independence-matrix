@@ -62,7 +62,7 @@
   },
   "new_instance_public_document_and_REUSED": "REAL STUDIONET VERIFIED / final canonical; actual evidence, no migration",
   "runtime_evidence": "evidence/semantic-safety/semantic-safety-summary.json",
-  "source_repository_status": "Local commit + deployment-source.bundle; GitHub remote contains frozen fixtures and README only",
+  "source_repository_status": "PUBLIC: unchanged canonical source and bundle published; deployment commit remains bundle-recoverable, not claimed as remote tree",
   "final_public_document_new": "0x77ddb362ff4fa11dc9a827de14f143da266c3c9c82d018950c9fc9376b45f4bb",
   "final_public_document_request_id": "5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46",
   "final_public_document_result": {
@@ -80,5 +80,7 @@
   "final_lookup": "Both latest-final found=true; correct ID/payload/status",
   "final_protocol_read": "evidence/phase4-final-closure/final-protocol-read.json",
   "final_closure_evidence": "evidence/phase4-final-closure/final-closure-summary.json",
-  "final_negative_controls": "NOT REAL-NETWORK VERIFIED"
+  "final_negative_controls": "NOT REAL-NETWORK VERIFIED",
+  "source_publication_commit": "a54a4fde7a6d601de0ef470687e1104e0eb989cc",
+  "source_repository": "https://github.com/halihalibt/evidence-independence-matrix"
 }
