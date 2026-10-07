@@ -1,0 +1,189 @@
+{
+  "transaction": "0xd65121dc4124210e677b6dd19325650cbeacdc241249a67e9d2a7aa5873f187d",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "result_code": 6,
+  "rounds": "1",
+  "leader_rotations": 0,
+  "initial_validators": 5,
+  "round_data": [
+    {
+      "round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader": [
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+              "result_status": "PARTIAL"
+            }
+          },
+          "llm_tokens": {
+            "node-0xDB1c35c1f05d885999b8f13e5735307BcC16Be88/openai/gpt-5.4": {
+              "input": 2240,
+              "total": 2284,
+              "output": 44
+            }
+          }
+        },
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+              "result_status": "PARTIAL"
+            }
+          },
+          "llm_tokens": {
+            "node-0xDB1c35c1f05d885999b8f13e5735307BcC16Be88/openai/gpt-5.4": {
+              "input": 2431,
+              "total": 2457,
+              "output": 26
+            }
+          }
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x3E5ee2507cc167C9925Bf10c67D7986581112024/policy:prd-gemini": {
+              "input": 2581,
+              "total": 2647,
+              "output": 66
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 2581,
+              "total": 2647,
+              "output": 66
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": 0,
+          "llm_tokens": {
+            "node-0x4404Fb70d490c935758146f42A73DC850FF95C71/policy:prd-gemma": {
+              "input": 2594,
+              "total": 2627,
+              "output": 33
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": 0,
+          "llm_tokens": {
+            "node-0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8/policy:prd-sonnet": {
+              "input": 2645,
+              "total": 3413,
+              "output": 768
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "actual_success_addresses": [
+        "0xdb1c35c1f05d885999b8f13e5735307bcc16be88",
+        "0x3e5ee2507cc167c9925bf10c67d7986581112024",
+        "0x03d58a4def6fdfc032a56374785a5f571d07bc11",
+        "0x4404fb70d490c935758146f42a73dc850ff95c71",
+        "0xce1d6bbb36b744536153966b4dd42276f5add0f8"
+      ],
+      "actual_success_count": 5
+    }
+  ],
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8"
+    ],
+    "validator_votes_hash": [
+      "0xe35d08076a4ea44a4776474b1d3aa17c4f0a82fb062ccf1369482f6282f924e6",
+      "0x5bf2428d6df88f139a73533212034320ee092bbd31d6f436e4bd75b0bcdc19fe",
+      "0xcca20bc10c87fe5b5c9192bcef9f822910a905e4b71f92b380d372668b040002",
+      "0xe80c40bfa9497970d5c2e6125b90477dfc28e4d9b2de7344fdc944a3c82e193b",
+      "0x685f946571cd1fd7b792e2b1d43a02e732703e7d2c56dd603d50f21cd18afb02"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "DISAGREE",
+      "DISAGREE"
+    ]
+  },
+  "meaning": "Actual exposed executions/votes; identities do not prove different operators/model families. No private Validator candidate inferred."
+}

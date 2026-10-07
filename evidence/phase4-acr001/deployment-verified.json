@@ -1,0 +1,108 @@
+{
+  "address": "0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC",
+  "transaction": "0xf9835ad36392fc09c596d091698c16b92e63506b8e90d0cdb4cef95061c54156",
+  "status": "FINALIZED",
+  "consensus": "MAJORITY_AGREE",
+  "execution": "SUCCESS",
+  "source_commit": "f80ac8d3e50691e9b0e98d748dbb8da38acb8026",
+  "source_sha256": "eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c",
+  "source_matches": true,
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "assess": {
+        "params": [
+          [
+            "client_key",
+            "string"
+          ],
+          [
+            "claim",
+            "string"
+          ],
+          [
+            "context",
+            "string"
+          ],
+          [
+            "urls",
+            [
+              {
+                "$rep": "string"
+              }
+            ]
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "get_assessment": {
+        "params": [
+          [
+            "request_id",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_protocol_info": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "lookup_request": {
+        "params": [
+          [
+            "creator",
+            "string"
+          ],
+          [
+            "client_key",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      }
+    }
+  },
+  "info": {
+    "limits": {
+      "body_bytes": 32768,
+      "claim": 600,
+      "client_key": 64,
+      "context": 400,
+      "sources_max": 4,
+      "sources_min": 2,
+      "text_codepoints": 8000,
+      "url_bytes": 512
+    },
+    "protocol_version": "EIM-V1-STUDIO",
+    "relation_rules": "EIM-V1-STUDIO",
+    "schema_version": "EIM-CANDIDATE-V1",
+    "source_rules": {
+      "extensions": [
+        ".txt",
+        ".md",
+        ".adoc",
+        ".sol"
+      ],
+      "hosts": [
+        "raw.githubusercontent.com",
+        "<legal-github-owner>.github.io"
+      ],
+      "scheme": "https"
+    }
+  },
+  "consensus_revision": "ACR-001",
+  "transactionHashVariant": "latest-final"
+}

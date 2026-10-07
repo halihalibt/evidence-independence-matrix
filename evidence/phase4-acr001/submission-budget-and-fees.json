@@ -1,0 +1,157 @@
+{
+  "fee_route": "LOCKED SDK1.1.8 legacy eth_estimateGas / eth_gasPrice; no sim_getFeeConfig",
+  "observations": [
+    {
+      "time": "2026-10-07T05:05:59.608Z",
+      "method": "eth_getTransactionCount",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x2",
+        "id": 1791349559430
+      }
+    },
+    {
+      "time": "2026-10-07T05:05:59.836Z",
+      "method": "eth_estimateGas",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x7a120",
+        "id": 1791349559609
+      }
+    },
+    {
+      "time": "2026-10-07T05:06:00.150Z",
+      "method": "eth_gasPrice",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x0",
+        "id": 1791349559836
+      }
+    },
+    {
+      "time": "2026-10-07T05:08:16.480Z",
+      "method": "eth_getTransactionCount",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x3",
+        "id": 1791349696333
+      }
+    },
+    {
+      "time": "2026-10-07T05:08:16.621Z",
+      "method": "eth_estimateGas",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x7a120",
+        "id": 1791349696480
+      }
+    },
+    {
+      "time": "2026-10-07T05:08:16.760Z",
+      "method": "eth_gasPrice",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x0",
+        "id": 1791349696622
+      }
+    },
+    {
+      "time": "2026-10-07T05:12:04.368Z",
+      "method": "eth_getTransactionCount",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x4",
+        "id": 1791349924198
+      }
+    },
+    {
+      "time": "2026-10-07T05:12:04.513Z",
+      "method": "eth_estimateGas",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x7a120",
+        "id": 1791349924369
+      }
+    },
+    {
+      "time": "2026-10-07T05:12:04.668Z",
+      "method": "eth_gasPrice",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x0",
+        "id": 1791349924514
+      }
+    },
+    {
+      "time": "2026-10-07T05:14:40.840Z",
+      "method": "eth_getTransactionCount",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x5",
+        "id": 1791350080696
+      }
+    },
+    {
+      "time": "2026-10-07T05:14:40.992Z",
+      "method": "eth_estimateGas",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x7a120",
+        "id": 1791350080840
+      }
+    },
+    {
+      "time": "2026-10-07T05:14:41.140Z",
+      "method": "eth_gasPrice",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x0",
+        "id": 1791350080992
+      }
+    }
+  ],
+  "sendRawTransaction_count": 4,
+  "send_results": [
+    {
+      "time": "2026-10-07T05:06:00.579Z",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0xf9835ad36392fc09c596d091698c16b92e63506b8e90d0cdb4cef95061c54156",
+        "id": 1791349560304
+      }
+    },
+    {
+      "time": "2026-10-07T05:08:17.240Z",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0xd65121dc4124210e677b6dd19325650cbeacdc241249a67e9d2a7aa5873f187d",
+        "id": 1791349696942
+      }
+    },
+    {
+      "time": "2026-10-07T05:12:05.063Z",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9",
+        "id": 1791349924820
+      }
+    },
+    {
+      "time": "2026-10-07T05:14:41.587Z",
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e",
+        "id": 1791350081289
+      }
+    }
+  ],
+  "expected": {
+    "deployments": 1,
+    "controlled_new": 1,
+    "public_document_new": 1,
+    "reused": 1
+  },
+  "new_cash_spending": 0,
+  "new_faucet_requests": 0,
+  "funding": "Existing free Faucet GEN only"
+}

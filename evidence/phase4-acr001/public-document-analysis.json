@@ -1,0 +1,179 @@
+{
+  "transaction": "0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "result_code": 6,
+  "rounds": "1",
+  "leader_rotations": 0,
+  "initial_validators": 5,
+  "round_data": [
+    {
+      "round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader": [
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a",
+              "result_status": "COMPLETE"
+            }
+          },
+          "llm_tokens": {
+            "node-0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d/policy:prd-glm": {
+              "input": 3833,
+              "total": 4578,
+              "output": 745
+            }
+          }
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "execution_result": "ERROR",
+          "result": {
+            "kind": "ERROR",
+            "code": 2,
+            "message": "idle"
+          }
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb/anthropic/claude-sonnet-4.6": {
+              "input": 4550,
+              "total": 4574,
+              "output": 24
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x4404Fb70d490c935758146f42A73DC850FF95C71/policy:prd-gemma": {
+              "input": 4306,
+              "total": 4328,
+              "output": 22
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658/policy:prd-deepseek": {
+              "input": 4099,
+              "total": 4116,
+              "output": 17
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": 0,
+          "llm_tokens": {
+            "node-0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3/policy:prd-qwen": {
+              "input": 4052,
+              "total": 4080,
+              "output": 28
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "actual_success_addresses": [
+        "0x9ea87b28dca2f79fe108cf06a4c13b4c876ac23d",
+        "0x14402d49f317ce1a2f35bae01b1804a2a9703dcb",
+        "0x4404fb70d490c935758146f42a73dc850ff95c71",
+        "0xec2fb79cd12255eb34886ced7332f27b98dee658",
+        "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3"
+      ],
+      "actual_success_count": 5
+    }
+  ],
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3"
+    ],
+    "validator_votes_hash": [
+      "0x12c9ae43397fcf1a525966971088a9492fc37a6b4c4a1a5b05a344fee4fbec12",
+      "0xa48470a9cd73cbf8d44167a830107857feeac018b9198b8a1c71d9b50599a45b",
+      "0x1beeb255ae72846f8f31b86d3b874e2cc8035cbb8448a276b056326a16b86b2b",
+      "0xabdf71e6265c8da100e82343392d1eb4b2009a8c2de06fc5adc57b3149a4d27a",
+      "0x3fd7fb75a422edf4091a2d893b98f8a40c566d8e7aa692a3d2cf9df2de61a92a"
+    ],
+    "validator_votes": [
+      5,
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "DISAGREE"
+    ]
+  },
+  "meaning": "Actual exposed executions/votes; identities do not prove different operators/model families. No private Validator candidate inferred."
+}

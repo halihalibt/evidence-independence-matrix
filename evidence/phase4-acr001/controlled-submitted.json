@@ -1,0 +1,9 @@
+{
+  "transaction": "0xd65121dc4124210e677b6dd19325650cbeacdc241249a67e9d2a7aa5873f187d",
+  "address": "0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC",
+  "creator": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+  "expected_disposition": "NEW",
+  "chainId": 61999,
+  "time": "2026-10-07T05:08:17.395Z"
+}

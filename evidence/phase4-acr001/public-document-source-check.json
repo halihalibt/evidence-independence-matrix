@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md",
+      "status": 200,
+      "raw_bytes": 5601,
+      "raw_sha256": "50d0bdc535ed8987ac5c124cb5f9c39606806c97e909aae66ef4b747dd9c93dd",
+      "normalized_codepoints": 5600,
+      "content_digest": "5ad66b7c4d33aae514fc5fdffba24804a5b4b2edbda9662cb9e1ba60136ec587",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T05:11:30.784Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+      "status": 200,
+      "raw_bytes": 2781,
+      "raw_sha256": "01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c",
+      "normalized_codepoints": 2780,
+      "content_digest": "4cbb8139ede4a09ec0e79b57e6b8eda9481c0ad731fc7745a0ec058847bc8350",
+      "frozen_bytes_equal": true,
+      "checked_utc": "2026-10-07T05:11:31.064Z"
+    }
+  ],
+  "scope": "READABILITY/BYTE EQUALITY; NOT CLASSIFICATION"
+}

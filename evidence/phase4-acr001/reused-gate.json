@@ -1,0 +1,35 @@
+{
+  "gate": "PASS",
+  "case": "reused",
+  "transaction": "0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e",
+  "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+  "errors": [],
+  "finalized": true,
+  "consensus_result": "MAJORITY_AGREE",
+  "actual_success_count": 5,
+  "actual_addresses": [
+    "0x4aba638cf0cf5249437aad968fc69dde46ae6bac",
+    "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3",
+    "0xacc2459f341d7a887bca8faa62f1ec9378d4bc67",
+    "0x36728d2a123ab444e603ee5b2ad17d18bb193557",
+    "0x3e5ee2507cc167c9925bf10c67d7986581112024"
+  ],
+  "rounds": "1",
+  "rotations": 0,
+  "record_invariant_validation": "PASS",
+  "actual_return": [
+    {
+      "disposition": "REUSED",
+      "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+      "result_status": "PARTIAL"
+    },
+    {
+      "disposition": "REUSED",
+      "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+      "result_status": "PARTIAL"
+    }
+  ],
+  "read_variant": "latest-final",
+  "proof": "REAL STUDIONET RECEIPT/VOTES + FINALIZED READBACK; pure core used for invariant check only; no mock model proof",
+  "semantic_negative_live_tests": "NOT_VERIFIED"
+}

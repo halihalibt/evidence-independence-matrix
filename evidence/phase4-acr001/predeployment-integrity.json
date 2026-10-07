@@ -1,0 +1,25 @@
+{
+  "authority": "Architecture Freeze + approved ACR-001 + approved Gate-order exception",
+  "protocol_version": "EIM-V1-STUDIO",
+  "schema_version": "EIM-CANDIDATE-V1",
+  "consensus_revision": "ACR-001",
+  "version_strategy": "Preserve frozen business protocol/schema/ID namespace. Consensus identity is explicitly bound to ACR-001 + immutable source commit/SHA + distinct deployment address; no silent ambiguity and no new public schema field. protocol_version describes unchanged classification rules/business format, not the sole deployment/consensus identity. Version bump would alter frozen request_id/payload_digest preimages and published vectors unnecessarily. User expressly permits retaining it with explanation.",
+  "source_sha256": "eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c",
+  "local_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "251",
+    "time": "0.700",
+    "timestamp": "2026-10-07T13:29:52.319048+11:00",
+    "hostname": "7f871a8cb18d"
+  },
+  "tests_rerun": false,
+  "predeploy_real_model_gate": "REAL_MODEL_PREDEPLOY_GATE_UNAVAILABLE",
+  "gate_order_exception": "APPROVED BY USER: DEPLOY ONCE THEN ONE CONTROLLED NEW",
+  "new_cash_spending": 0,
+  "source_commit": "f80ac8d3e50691e9b0e98d748dbb8da38acb8026",
+  "deployed_schema_matches_frozen": true,
+  "production_modifications_after_commit": true
+}

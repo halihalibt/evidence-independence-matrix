@@ -1,0 +1,299 @@
+{
+  "updated_utc": "2026-10-07T05:19:01.246571+00:00",
+  "authority": "Original Architecture Freeze + approved ACR-001 + approved deployment-first Gate exception",
+  "acr001_runtime_gate": "PASS",
+  "real_model_predeploy_gate": "REAL_MODEL_PREDEPLOY_GATE_UNAVAILABLE",
+  "phase4_network_checks": "COMPLETE / PASS",
+  "phase4_gate": "BLOCKED_SYNTHETIC_SEMANTIC_EXPECTATION_REVIEW",
+  "phase5": "NOT_STARTED / NOT_AUTHORIZED",
+  "old_contract": "0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03",
+  "old_status": "SUPERSEDED PHASE-4 DIAGNOSTIC DEPLOYMENT",
+  "new_canonical_contract": "0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC",
+  "source_commit": "f80ac8d3e50691e9b0e98d748dbb8da38acb8026",
+  "source_sha256": "eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c",
+  "protocol_version": "EIM-V1-STUDIO",
+  "consensus_revision": "ACR-001",
+  "schema_version": "EIM-CANDIDATE-V1",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "deployment": {
+    "transaction": "0xf9835ad36392fc09c596d091698c16b92e63506b8e90d0cdb4cef95061c54156",
+    "finality": "FINALIZED",
+    "execution": "SUCCESS",
+    "consensus": "MAJORITY_AGREE",
+    "rounds": "1",
+    "rotations": 0,
+    "source_and_schema_verified": true,
+    "get_protocol_info": {
+      "limits": {
+        "body_bytes": 32768,
+        "claim": 600,
+        "client_key": 64,
+        "context": 400,
+        "sources_max": 4,
+        "sources_min": 2,
+        "text_codepoints": 8000,
+        "url_bytes": 512
+      },
+      "protocol_version": "EIM-V1-STUDIO",
+      "relation_rules": "EIM-V1-STUDIO",
+      "schema_version": "EIM-CANDIDATE-V1",
+      "source_rules": {
+        "extensions": [
+          ".txt",
+          ".md",
+          ".adoc",
+          ".sol"
+        ],
+        "hosts": [
+          "raw.githubusercontent.com",
+          "<legal-github-owner>.github.io"
+        ],
+        "scheme": "https"
+      }
+    }
+  },
+  "cases": {
+    "controlled": {
+      "gate": "PASS",
+      "case": "controlled",
+      "transaction": "0xd65121dc4124210e677b6dd19325650cbeacdc241249a67e9d2a7aa5873f187d",
+      "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+      "errors": [],
+      "finalized": true,
+      "consensus_result": "MAJORITY_AGREE",
+      "actual_success_count": 5,
+      "actual_addresses": [
+        "0xdb1c35c1f05d885999b8f13e5735307bcc16be88",
+        "0x3e5ee2507cc167c9925bf10c67d7986581112024",
+        "0x03d58a4def6fdfc032a56374785a5f571d07bc11",
+        "0x4404fb70d490c935758146f42a73dc850ff95c71",
+        "0xce1d6bbb36b744536153966b4dd42276f5add0f8"
+      ],
+      "rounds": "1",
+      "rotations": 0,
+      "record_invariant_validation": "PASS",
+      "actual_return": [
+        {
+          "disposition": "NEW",
+          "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+          "result_status": "PARTIAL"
+        },
+        {
+          "disposition": "NEW",
+          "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+          "result_status": "PARTIAL"
+        }
+      ],
+      "read_variant": "latest-final",
+      "proof": "REAL STUDIONET RECEIPT/VOTES + FINALIZED READBACK; pure core used for invariant check only; no mock model proof",
+      "semantic_negative_live_tests": "NOT_VERIFIED"
+    },
+    "public-document": {
+      "gate": "PASS",
+      "case": "public-document",
+      "transaction": "0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9",
+      "request_id": "2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a",
+      "errors": [],
+      "finalized": true,
+      "consensus_result": "MAJORITY_AGREE",
+      "actual_success_count": 5,
+      "actual_addresses": [
+        "0x9ea87b28dca2f79fe108cf06a4c13b4c876ac23d",
+        "0x14402d49f317ce1a2f35bae01b1804a2a9703dcb",
+        "0x4404fb70d490c935758146f42a73dc850ff95c71",
+        "0xec2fb79cd12255eb34886ced7332f27b98dee658",
+        "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3"
+      ],
+      "rounds": "1",
+      "rotations": 0,
+      "record_invariant_validation": "PASS",
+      "actual_return": [
+        {
+          "disposition": "NEW",
+          "request_id": "2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a",
+          "result_status": "COMPLETE"
+        }
+      ],
+      "read_variant": "latest-final",
+      "proof": "REAL STUDIONET RECEIPT/VOTES + FINALIZED READBACK; pure core used for invariant check only; no mock model proof",
+      "semantic_negative_live_tests": "NOT_VERIFIED"
+    },
+    "reused": {
+      "gate": "PASS",
+      "case": "reused",
+      "transaction": "0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e",
+      "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+      "errors": [],
+      "finalized": true,
+      "consensus_result": "MAJORITY_AGREE",
+      "actual_success_count": 5,
+      "actual_addresses": [
+        "0x4aba638cf0cf5249437aad968fc69dde46ae6bac",
+        "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3",
+        "0xacc2459f341d7a887bca8faa62f1ec9378d4bc67",
+        "0x36728d2a123ab444e603ee5b2ad17d18bb193557",
+        "0x3e5ee2507cc167c9925bf10c67d7986581112024"
+      ],
+      "rounds": "1",
+      "rotations": 0,
+      "record_invariant_validation": "PASS",
+      "actual_return": [
+        {
+          "disposition": "REUSED",
+          "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+          "result_status": "PARTIAL"
+        },
+        {
+          "disposition": "REUSED",
+          "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+          "result_status": "PARTIAL"
+        }
+      ],
+      "read_variant": "latest-final",
+      "proof": "REAL STUDIONET RECEIPT/VOTES + FINALIZED READBACK; pure core used for invariant check only; no mock model proof",
+      "semantic_negative_live_tests": "NOT_VERIFIED"
+    }
+  },
+  "controlled_actual": {
+    "claim": "2026-09-15\uff0c\u865a\u6784Meridian\u516c\u56ed\u767d\u5929\u6c14\u6e29\u8d85\u8fc730\u00b0C\u3002",
+    "client_key": "acr001-controlled-20261007",
+    "context": "\u5168\u90e8\u89c2\u6d4b\u4e3a\u865a\u6784\uff0c\u4ec5\u89e3\u91ca\u6765\u6e90\u4f9d\u8d56\u4e0e\u4e24\u4e24\u72ec\u7acb\u96c6\u5408\u3002",
+    "creator": "0xcbc19a09b41a3450fad5881386c069ed5ae0313c",
+    "dependent_pair_count": 2,
+    "independent_pair_count": 1,
+    "max_supported_independent_set": [
+      0,
+      2
+    ],
+    "max_supported_independent_set_size": 2,
+    "pairs": [
+      {
+        "i": 0,
+        "j": 1,
+        "relation": "DEPENDENT"
+      },
+      {
+        "i": 0,
+        "j": 2,
+        "relation": "INDEPENDENT"
+      },
+      {
+        "i": 0,
+        "j": 3,
+        "relation": "UNKNOWN"
+      },
+      {
+        "i": 1,
+        "j": 2,
+        "relation": "DEPENDENT"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "relation": "UNKNOWN"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "relation": "UNKNOWN"
+      }
+    ],
+    "payload_digest": "e06b4af4688ba1f6a14bf60d8b350846ca8cf622c9945c4bf482ac60d7b83391",
+    "protocol_version": "EIM-V1-STUDIO",
+    "request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+    "result_status": "PARTIAL",
+    "sources": [
+      {
+        "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+        "index": 0,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+      },
+      {
+        "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+        "index": 1,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+      },
+      {
+        "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+        "index": 2,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+      },
+      {
+        "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+        "index": 3,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+      }
+    ],
+    "unknown_pair_count": 3,
+    "urls": [
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+    ]
+  },
+  "public_document_actual": {
+    "claim": "ERC-20\u89c4\u8303\u5b9a\u4e49balanceOf\u7528\u4e8e\u8fd4\u56de\u6307\u5b9a\u8d26\u6237\u7684token\u4f59\u989d\u3002",
+    "client_key": "acr001-erc20-20261007",
+    "context": "\u5224\u65ad\u8303\u56f4\u4e3a\u89c4\u8303\u89c4\u5b9a\u7684\u63a5\u53e3\uff0c\u4e0d\u662f\u4ee3\u7801\u662f\u5426\u72ec\u7acb\u5f00\u53d1\u3002",
+    "creator": "0xcbc19a09b41a3450fad5881386c069ed5ae0313c",
+    "dependent_pair_count": 1,
+    "independent_pair_count": 0,
+    "max_supported_independent_set": [
+      0
+    ],
+    "max_supported_independent_set_size": 1,
+    "pairs": [
+      {
+        "i": 0,
+        "j": 1,
+        "relation": "DEPENDENT"
+      }
+    ],
+    "payload_digest": "b49273ab5265b1f812cf230cc55cc4234172aa68015bb8b2828464ce477efd4d",
+    "protocol_version": "EIM-V1-STUDIO",
+    "request_id": "2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a",
+    "result_status": "COMPLETE",
+    "sources": [
+      {
+        "content_digest": "4cbb8139ede4a09ec0e79b57e6b8eda9481c0ad731fc7745a0ec058847bc8350",
+        "index": 0,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol"
+      },
+      {
+        "content_digest": "5ad66b7c4d33aae514fc5fdffba24804a5b4b2edbda9662cb9e1ba60136ec587",
+        "index": 1,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+      }
+    ],
+    "unknown_pair_count": 0,
+    "urls": [
+      "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+      "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+    ]
+  },
+  "lookup_request": "PASS latest-final matching both requests",
+  "semantic_discrepancy": "B-C expected INDEPENDENT, actual DEPENDENT; preserved actual result. Negative safety and complete fixture accuracy not proven.",
+  "new_deployments": 1,
+  "new_business_transactions": 3,
+  "controlled_submissions": 1,
+  "retry_submissions": 0,
+  "new_cash_spending": 0,
+  "new_faucet_requests": 0,
+  "remaining_balance_wei": "2000000000000000000",
+  "local_tests": "251 PASS_RETAINED; not rerun, source/tests unchanged from final passing checkpoint",
+  "next_exact_action": "STOP; user review of B-C semantic discrepancy before any Phase5, further transaction, fix or architecture decision."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "OPEN / USER REVIEW REQUIRED; not an implementation bug finding or ACR",
+  "controlled": {
+    "expected_pairs": [
+      "DEPENDENT",
+      "INDEPENDENT",
+      "UNKNOWN",
+      "INDEPENDENT",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "actual_pairs": [
+      "DEPENDENT",
+      "INDEPENDENT",
+      "UNKNOWN",
+      "DEPENDENT",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "divergence": {
+      "pair": [
+        1,
+        2
+      ],
+      "labels": "B\u2013C",
+      "expected": "INDEPENDENT",
+      "actual": "DEPENDENT"
+    },
+    "expected_counts": {
+      "dependent": 1,
+      "independent": 2,
+      "unknown": 3
+    },
+    "actual_counts": {
+      "dependent": 2,
+      "independent": 1,
+      "unknown": 3
+    },
+    "expected_and_actual_max_set": [
+      0,
+      2
+    ],
+    "rationale": "Frozen B explicitly derives its evidence from A. Frozen C describes a separately calibrated handheld thermometer, personally read on site, and explicitly says A/B were not used to acquire this temperature. This is positive distinguishable acquisition evidence under the unchanged rule. No visible claim-related shared/derived origin for B\u2013C is identified in these fixture texts. The accepted network DEPENDENT label therefore contradicts the documented fixture expectation; preserve it and do not retry or assert semantic accuracy.",
+    "network_votes": "3 agree /2 disagree including Leader self-validation; per-field reasons and private validation arrays not exposed. Do not assign the two dissent votes to B\u2013C without evidence."
+  },
+  "public_document": {
+    "actual_relation": "DEPENDENT",
+    "expected_relation": "DEPENDENT",
+    "expectation_matches": true
+  },
+  "guarantees": "No chain result, fixture, prompt or code modified. Runtime Gate PASS per explicit current user definition does not prove all semantic labels correct or negative safety.",
+  "next_action": "Complete authorized minimum idempotency checks, stop; ask user to review this discrepancy before Phase5. No extra diagnosis, new assessment, redeployment, code fix or ACR proposed."
+}

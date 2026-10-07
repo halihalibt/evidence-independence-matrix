@@ -1,0 +1,35 @@
+ M README.md
+ M docs/ACR001_REAL_MODEL_GATE.md
+ M docs/ARCHITECTURE_CHANGE_REQUEST_001.md
+?? deployment/
+?? evidence/PHASE4_ONCHAIN_EVIDENCE.md
+?? evidence/phase4-acr001/
+?? evidence/phase4/account-and-faucet.json
+?? evidence/phase4/controlled-candidate-diagnostic.json
+?? evidence/phase4/controlled-consensus-analysis.json
+?? evidence/phase4/controlled-consensus-analysis.log
+?? evidence/phase4/controlled-finalized-read.json
+?? evidence/phase4/controlled-input.json
+?? evidence/phase4/controlled-latest.json
+?? evidence/phase4/controlled-participants-summary.json
+?? evidence/phase4/controlled-preflight.json
+?? evidence/phase4/controlled-signing.json
+?? evidence/phase4/controlled-submitted.json
+?? evidence/phase4/controlled-trace-round-0.json
+?? evidence/phase4/controlled-write-intent.json
+?? evidence/phase4/deployment-latest.json
+?? evidence/phase4/deployment-outer-receipt.json
+?? evidence/phase4/deployment-participants-summary.json
+?? evidence/phase4/deployment-source.bundle
+?? evidence/phase4/deployment-submitted.json
+?? evidence/phase4/explorer-access.json
+?? evidence/phase4/finalized-protocol-reads.json
+?? evidence/phase4/fixture-publication.json
+?? evidence/phase4/last-signing-public-parameters.json
+?? evidence/phase4/onchain-source-and-schema.json
+?? evidence/phase4/phase4-continuation-summary.json
+?? evidence/phase4/phase4-verification-summary.json
+?? evidence/phase4/public-document-fetch-validation.json
+?? evidence/phase4/public-document-input.json
+?? evidence/phase4/rpc-observations.jsonl
+?? examples/synthetic-studionet-input.json

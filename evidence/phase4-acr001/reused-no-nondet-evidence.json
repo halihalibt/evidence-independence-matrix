@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+      "mode": "leader",
+      "vote": null,
+      "execution": "SUCCESS",
+      "eq_outputs": {},
+      "llm_stats": null,
+      "genvm_call_counts": null
+    },
+    {
+      "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "eq_outputs": null,
+      "llm_stats": null,
+      "genvm_call_counts": null
+    },
+    {
+      "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "eq_outputs": null,
+      "llm_stats": null,
+      "genvm_call_counts": null
+    },
+    {
+      "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "eq_outputs": null,
+      "llm_stats": null,
+      "genvm_call_counts": null
+    },
+    {
+      "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "eq_outputs": null,
+      "llm_stats": null,
+      "genvm_call_counts": null
+    },
+    {
+      "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+      "mode": "validator",
+      "vote": "agree",
+      "execution": "SUCCESS",
+      "eq_outputs": null,
+      "llm_stats": null,
+      "genvm_call_counts": null
+    }
+  ],
+  "note": "Actual exposed records; no fetch/model inferred from exact preflight branch plus absent eq/LLM stats. Do not invent unexposed HTTP event logs."
+}

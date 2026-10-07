@@ -1,0 +1,4 @@
+ README.md                               | 14 +++++--
+ docs/ACR001_REAL_MODEL_GATE.md          | 65 +++++++++++++++++++++++++++++++++
+ docs/ARCHITECTURE_CHANGE_REQUEST_001.md |  4 ++
+ 3 files changed, 79 insertions(+), 4 deletions(-)
