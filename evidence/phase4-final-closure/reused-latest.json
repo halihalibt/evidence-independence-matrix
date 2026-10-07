@@ -1,0 +1,5030 @@
+{
+  "hash": "0x8c0ea62020311b5718fe53bab1f3f4bad3aeca2ab2429e5eb719683c939ef9f8",
+  "from_address": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "to_address": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "data": {
+    "calldata": {
+      "base64": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+      "raw": [
+        22,
+        4,
+        97,
+        114,
+        103,
+        115,
+        37,
+        140,
+        2,
+        97,
+        99,
+        114,
+        48,
+        48,
+        49,
+        45,
+        115,
+        97,
+        102,
+        101,
+        116,
+        121,
+        45,
+        99,
+        111,
+        110,
+        116,
+        114,
+        111,
+        108,
+        108,
+        101,
+        100,
+        45,
+        50,
+        48,
+        50,
+        54,
+        49,
+        48,
+        48,
+        55,
+        220,
+        3,
+        50,
+        48,
+        50,
+        54,
+        45,
+        48,
+        57,
+        45,
+        49,
+        53,
+        239,
+        188,
+        140,
+        232,
+        153,
+        154,
+        230,
+        158,
+        132,
+        77,
+        101,
+        114,
+        105,
+        100,
+        105,
+        97,
+        110,
+        229,
+        133,
+        172,
+        229,
+        155,
+        173,
+        231,
+        153,
+        189,
+        229,
+        164,
+        169,
+        230,
+        176,
+        148,
+        230,
+        184,
+        169,
+        232,
+        182,
+        133,
+        232,
+        191,
+        135,
+        51,
+        48,
+        194,
+        176,
+        67,
+        227,
+        128,
+        130,
+        172,
+        4,
+        229,
+        133,
+        168,
+        233,
+        131,
+        168,
+        232,
+        167,
+        130,
+        230,
+        181,
+        139,
+        228,
+        184,
+        186,
+        232,
+        153,
+        154,
+        230,
+        158,
+        132,
+        239,
+        188,
+        140,
+        228,
+        187,
+        133,
+        232,
+        167,
+        163,
+        233,
+        135,
+        138,
+        230,
+        157,
+        165,
+        230,
+        186,
+        144,
+        228,
+        190,
+        157,
+        232,
+        181,
+        150,
+        228,
+        184,
+        142,
+        228,
+        184,
+        164,
+        228,
+        184,
+        164,
+        231,
+        139,
+        172,
+        231,
+        171,
+        139,
+        233,
+        155,
+        134,
+        229,
+        144,
+        136,
+        227,
+        128,
+        130,
+        37,
+        244,
+        8,
+        104,
+        116,
+        116,
+        112,
+        115,
+        58,
+        47,
+        47,
+        114,
+        97,
+        119,
+        46,
+        103,
+        105,
+        116,
+        104,
+        117,
+        98,
+        117,
+        115,
+        101,
+        114,
+        99,
+        111,
+        110,
+        116,
+        101,
+        110,
+        116,
+        46,
+        99,
+        111,
+        109,
+        47,
+        104,
+        97,
+        108,
+        105,
+        104,
+        97,
+        108,
+        105,
+        98,
+        116,
+        47,
+        101,
+        118,
+        105,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        105,
+        110,
+        100,
+        101,
+        112,
+        101,
+        110,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        109,
+        97,
+        116,
+        114,
+        105,
+        120,
+        47,
+        53,
+        97,
+        49,
+        49,
+        99,
+        56,
+        50,
+        48,
+        97,
+        50,
+        56,
+        101,
+        50,
+        51,
+        51,
+        48,
+        51,
+        50,
+        57,
+        56,
+        102,
+        49,
+        50,
+        54,
+        53,
+        48,
+        51,
+        55,
+        55,
+        101,
+        101,
+        55,
+        56,
+        102,
+        97,
+        97,
+        98,
+        48,
+        98,
+        97,
+        47,
+        102,
+        105,
+        120,
+        116,
+        117,
+        114,
+        101,
+        115,
+        47,
+        115,
+        121,
+        110,
+        116,
+        104,
+        101,
+        116,
+        105,
+        99,
+        47,
+        118,
+        49,
+        47,
+        97,
+        46,
+        116,
+        120,
+        116,
+        244,
+        8,
+        104,
+        116,
+        116,
+        112,
+        115,
+        58,
+        47,
+        47,
+        114,
+        97,
+        119,
+        46,
+        103,
+        105,
+        116,
+        104,
+        117,
+        98,
+        117,
+        115,
+        101,
+        114,
+        99,
+        111,
+        110,
+        116,
+        101,
+        110,
+        116,
+        46,
+        99,
+        111,
+        109,
+        47,
+        104,
+        97,
+        108,
+        105,
+        104,
+        97,
+        108,
+        105,
+        98,
+        116,
+        47,
+        101,
+        118,
+        105,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        105,
+        110,
+        100,
+        101,
+        112,
+        101,
+        110,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        109,
+        97,
+        116,
+        114,
+        105,
+        120,
+        47,
+        53,
+        97,
+        49,
+        49,
+        99,
+        56,
+        50,
+        48,
+        97,
+        50,
+        56,
+        101,
+        50,
+        51,
+        51,
+        48,
+        51,
+        50,
+        57,
+        56,
+        102,
+        49,
+        50,
+        54,
+        53,
+        48,
+        51,
+        55,
+        55,
+        101,
+        101,
+        55,
+        56,
+        102,
+        97,
+        97,
+        98,
+        48,
+        98,
+        97,
+        47,
+        102,
+        105,
+        120,
+        116,
+        117,
+        114,
+        101,
+        115,
+        47,
+        115,
+        121,
+        110,
+        116,
+        104,
+        101,
+        116,
+        105,
+        99,
+        47,
+        118,
+        49,
+        47,
+        98,
+        46,
+        116,
+        120,
+        116,
+        244,
+        8,
+        104,
+        116,
+        116,
+        112,
+        115,
+        58,
+        47,
+        47,
+        114,
+        97,
+        119,
+        46,
+        103,
+        105,
+        116,
+        104,
+        117,
+        98,
+        117,
+        115,
+        101,
+        114,
+        99,
+        111,
+        110,
+        116,
+        101,
+        110,
+        116,
+        46,
+        99,
+        111,
+        109,
+        47,
+        104,
+        97,
+        108,
+        105,
+        104,
+        97,
+        108,
+        105,
+        98,
+        116,
+        47,
+        101,
+        118,
+        105,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        105,
+        110,
+        100,
+        101,
+        112,
+        101,
+        110,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        109,
+        97,
+        116,
+        114,
+        105,
+        120,
+        47,
+        53,
+        97,
+        49,
+        49,
+        99,
+        56,
+        50,
+        48,
+        97,
+        50,
+        56,
+        101,
+        50,
+        51,
+        51,
+        48,
+        51,
+        50,
+        57,
+        56,
+        102,
+        49,
+        50,
+        54,
+        53,
+        48,
+        51,
+        55,
+        55,
+        101,
+        101,
+        55,
+        56,
+        102,
+        97,
+        97,
+        98,
+        48,
+        98,
+        97,
+        47,
+        102,
+        105,
+        120,
+        116,
+        117,
+        114,
+        101,
+        115,
+        47,
+        115,
+        121,
+        110,
+        116,
+        104,
+        101,
+        116,
+        105,
+        99,
+        47,
+        118,
+        49,
+        47,
+        99,
+        46,
+        116,
+        120,
+        116,
+        244,
+        8,
+        104,
+        116,
+        116,
+        112,
+        115,
+        58,
+        47,
+        47,
+        114,
+        97,
+        119,
+        46,
+        103,
+        105,
+        116,
+        104,
+        117,
+        98,
+        117,
+        115,
+        101,
+        114,
+        99,
+        111,
+        110,
+        116,
+        101,
+        110,
+        116,
+        46,
+        99,
+        111,
+        109,
+        47,
+        104,
+        97,
+        108,
+        105,
+        104,
+        97,
+        108,
+        105,
+        98,
+        116,
+        47,
+        101,
+        118,
+        105,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        105,
+        110,
+        100,
+        101,
+        112,
+        101,
+        110,
+        100,
+        101,
+        110,
+        99,
+        101,
+        45,
+        109,
+        97,
+        116,
+        114,
+        105,
+        120,
+        47,
+        53,
+        97,
+        49,
+        49,
+        99,
+        56,
+        50,
+        48,
+        97,
+        50,
+        56,
+        101,
+        50,
+        51,
+        51,
+        48,
+        51,
+        50,
+        57,
+        56,
+        102,
+        49,
+        50,
+        54,
+        53,
+        48,
+        51,
+        55,
+        55,
+        101,
+        101,
+        55,
+        56,
+        102,
+        97,
+        97,
+        98,
+        48,
+        98,
+        97,
+        47,
+        102,
+        105,
+        120,
+        116,
+        117,
+        114,
+        101,
+        115,
+        47,
+        115,
+        121,
+        110,
+        116,
+        104,
+        101,
+        116,
+        105,
+        99,
+        47,
+        118,
+        49,
+        47,
+        100,
+        46,
+        116,
+        120,
+        116,
+        6,
+        109,
+        101,
+        116,
+        104,
+        111,
+        100,
+        52,
+        97,
+        115,
+        115,
+        101,
+        115,
+        115
+      ],
+      "readable": "{\"args\":[\"acr001-safety-controlled-20261007\",\"2026-09-15，虚构Meridian公园白天气温超过30°C。\",\"全部观测为虚构，仅解释来源依赖与两两独立集合。\",[\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt\",],]\"method\":\"assess\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "idle",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+        "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "primary_model": {
+            "model": "policy:prd-gemma",
+            "config": {
+              "policy_ir": [
+                "policy",
+                [
+                  "and",
+                  [
+                    "meets_req"
+                  ],
+                  [
+                    "not",
+                    [
+                      "is",
+                      "disabled"
+                    ]
+                  ],
+                  [
+                    "cmp",
+                    "success_rate",
+                    "ge",
+                    0.2
+                  ],
+                  [
+                    "or",
+                    [
+                      "family_eq",
+                      "gemma-4-31b-it"
+                    ],
+                    [
+                      "family_eq",
+                      "gemma-4-26b-a4b-it"
+                    ],
+                    [
+                      "family_eq",
+                      "gpt-5.4"
+                    ]
+                  ]
+                ],
+                [
+                  "add",
+                  [
+                    "scale",
+                    100,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gemma-4-31b-it"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    10,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gemma-4-26b-a4b-it"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    1,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-5.4"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.25,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_in"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.45,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_out"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.2,
+                    [
+                      "field",
+                      "success_rate"
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.1,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "latency_ms"
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "argmax"
+                ],
+                [
+                  "id"
+                ],
+                [
+                  "always",
+                  {
+                    "action": "next_candidate"
+                  }
+                ]
+              ],
+              "timeout_ms": 22000,
+              "first_token_timeout_ms": 7000
+            },
+            "plugin": "openai-compatible",
+            "provider": "llm-router",
+            "plugin_config": {
+              "api_url": "https://router.ygr.ai",
+              "api_key_env_var": "LLM_ROUTER_API_KEY"
+            },
+            "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+          },
+          "secondary_model": {
+            "model": "google/gemini-3-flash-preview",
+            "config": {
+              "models": [
+                "google/gemini-3-flash-preview",
+                "openai/gpt-5.4",
+                "anthropic/claude-sonnet-4.6"
+              ]
+            },
+            "plugin": "openai-compatible",
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "plugin_config": {
+              "api_url": "https://openrouter.ai/api",
+              "api_key_env_var": "OPENROUTERAPIKEY"
+            }
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 12,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 412.873557118,
+          "host_loop_enter_wait_ms": 1009,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 45
+          },
+          "host_total_handling_time_ms": 45,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 1007
+          },
+          "host_first_method_received_s": 412.873673572,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1856,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "node_config": {
+          "id": 5521,
+          "model": "policy:prd-sonnet",
+          "stake": 100,
+          "config": {
+            "policy_ir": [
+              "policy",
+              [
+                "and",
+                [
+                  "meets_req"
+                ],
+                [
+                  "not",
+                  [
+                    "is",
+                    "disabled"
+                  ]
+                ],
+                [
+                  "cmp",
+                  "success_rate",
+                  "ge",
+                  0.2
+                ],
+                [
+                  "or",
+                  [
+                    "family_eq",
+                    "claude-sonnet-4-6"
+                  ],
+                  [
+                    "family_eq",
+                    "gpt-5.4"
+                  ],
+                  [
+                    "family_eq",
+                    "gemini-3-flash-preview"
+                  ]
+                ]
+              ],
+              [
+                "add",
+                [
+                  "scale",
+                  100,
+                  [
+                    "gate",
+                    [
+                      "family_eq",
+                      "claude-sonnet-4-6"
+                    ],
+                    [
+                      "lit",
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "scale",
+                  10,
+                  [
+                    "gate",
+                    [
+                      "family_eq",
+                      "gpt-5.4"
+                    ],
+                    [
+                      "lit",
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "scale",
+                  1,
+                  [
+                    "gate",
+                    [
+                      "family_eq",
+                      "gemini-3-flash-preview"
+                    ],
+                    [
+                      "lit",
+                      1
+                    ]
+                  ]
+                ],
+                [
+                  "scale",
+                  0.25,
+                  [
+                    "neg",
+                    [
+                      "normalize",
+                      [
+                        "field",
+                        "price_in"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "scale",
+                  0.45,
+                  [
+                    "neg",
+                    [
+                      "normalize",
+                      [
+                        "field",
+                        "price_out"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "scale",
+                  0.2,
+                  [
+                    "field",
+                    "success_rate"
+                  ]
+                ],
+                [
+                  "scale",
+                  0.1,
+                  [
+                    "neg",
+                    [
+                      "normalize",
+                      [
+                        "field",
+                        "latency_ms"
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "argmax"
+              ],
+              [
+                "id"
+              ],
+              [
+                "always",
+                {
+                  "action": "next_candidate"
+                }
+              ]
+            ],
+            "timeout_ms": 22000,
+            "first_token_timeout_ms": 7000
+          },
+          "plugin": "openai-compatible",
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "provider": "llm-router",
+          "plugin_config": {
+            "api_url": "https://router.ygr.ai",
+            "api_key_env_var": "LLM_ROUTER_API_KEY"
+          },
+          "fallback_validator": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE"
+        },
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "node_config": {
+          "id": 5533,
+          "model": "openai/gpt-5.4",
+          "stake": 100,
+          "config": {
+            "models": [
+              "openai/gpt-5.4",
+              "anthropic/claude-sonnet-4.6",
+              "google/gemini-3-flash-preview"
+            ]
+          },
+          "plugin": "openai-compatible",
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "provider": "openrouter",
+          "plugin_config": {
+            "api_url": "https://openrouter.ai/api",
+            "api_key_env_var": "OPENROUTERAPIKEY"
+          },
+          "fallback_validator": "0x90402341F0B0e97b23023c0a87de957FB7148E0F"
+        },
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+        "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "primary_model": {
+            "model": "policy:prd-deepseek",
+            "config": {
+              "policy_ir": [
+                "policy",
+                [
+                  "and",
+                  [
+                    "meets_req"
+                  ],
+                  [
+                    "not",
+                    [
+                      "is",
+                      "disabled"
+                    ]
+                  ],
+                  [
+                    "cmp",
+                    "success_rate",
+                    "ge",
+                    0.2
+                  ],
+                  [
+                    "or",
+                    [
+                      "family_eq",
+                      "deepseek-v3.2"
+                    ],
+                    [
+                      "family_eq",
+                      "gpt-oss-120b"
+                    ],
+                    [
+                      "family_eq",
+                      "gpt-5.4"
+                    ]
+                  ]
+                ],
+                [
+                  "add",
+                  [
+                    "scale",
+                    100,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "deepseek-v3.2"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    10,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-oss-120b"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    1,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-5.4"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.25,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_in"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.45,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_out"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.2,
+                    [
+                      "field",
+                      "success_rate"
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.1,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "latency_ms"
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "argmax"
+                ],
+                [
+                  "id"
+                ],
+                [
+                  "always",
+                  {
+                    "action": "next_candidate"
+                  }
+                ]
+              ],
+              "timeout_ms": 22000,
+              "first_token_timeout_ms": 7000
+            },
+            "plugin": "openai-compatible",
+            "provider": "llm-router",
+            "plugin_config": {
+              "api_url": "https://router.ygr.ai",
+              "api_key_env_var": "LLM_ROUTER_API_KEY"
+            },
+            "fallback_validator": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb"
+          },
+          "secondary_model": {
+            "model": "anthropic/claude-sonnet-4.6",
+            "config": {
+              "models": [
+                "anthropic/claude-sonnet-4.6",
+                "openai/gpt-5.4",
+                "google/gemini-3-flash-preview"
+              ]
+            },
+            "plugin": "openai-compatible",
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "plugin_config": {
+              "api_url": "https://openrouter.ai/api",
+              "api_key_env_var": "OPENROUTERAPIKEY"
+            }
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 12,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 413.660975769,
+          "host_loop_enter_wait_ms": 1794,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 4
+          },
+          "host_total_handling_time_ms": 4,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 1790
+          },
+          "host_first_method_received_s": 413.66135038,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 2420,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": {
+          "raw": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+          "status": "return",
+          "payload": {
+            "raw": [
+              30,
+              11,
+              100,
+              105,
+              115,
+              112,
+              111,
+              115,
+              105,
+              116,
+              105,
+              111,
+              110,
+              52,
+              82,
+              69,
+              85,
+              83,
+              69,
+              68,
+              10,
+              114,
+              101,
+              113,
+              117,
+              101,
+              115,
+              116,
+              95,
+              105,
+              100,
+              132,
+              4,
+              54,
+              56,
+              98,
+              57,
+              48,
+              57,
+              48,
+              100,
+              54,
+              51,
+              56,
+              55,
+              51,
+              56,
+              98,
+              100,
+              48,
+              50,
+              51,
+              54,
+              98,
+              48,
+              56,
+              52,
+              97,
+              102,
+              102,
+              57,
+              53,
+              97,
+              101,
+              55,
+              53,
+              53,
+              49,
+              100,
+              56,
+              100,
+              102,
+              49,
+              49,
+              100,
+              97,
+              57,
+              98,
+              50,
+              56,
+              50,
+              97,
+              97,
+              97,
+              53,
+              51,
+              54,
+              101,
+              99,
+              100,
+              52,
+              52,
+              56,
+              50,
+              53,
+              56,
+              102,
+              13,
+              114,
+              101,
+              115,
+              117,
+              108,
+              116,
+              95,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              60,
+              80,
+              65,
+              82,
+              84,
+              73,
+              65,
+              76
+            ],
+            "readable": "{\"disposition\":\"REUSED\"\"request_id\":\"68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f\"\"result_status\":\"PARTIAL\"}"
+          }
+        },
+        "calldata": {
+          "base64": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+          "raw": [
+            22,
+            4,
+            97,
+            114,
+            103,
+            115,
+            37,
+            140,
+            2,
+            97,
+            99,
+            114,
+            48,
+            48,
+            49,
+            45,
+            115,
+            97,
+            102,
+            101,
+            116,
+            121,
+            45,
+            99,
+            111,
+            110,
+            116,
+            114,
+            111,
+            108,
+            108,
+            101,
+            100,
+            45,
+            50,
+            48,
+            50,
+            54,
+            49,
+            48,
+            48,
+            55,
+            220,
+            3,
+            50,
+            48,
+            50,
+            54,
+            45,
+            48,
+            57,
+            45,
+            49,
+            53,
+            239,
+            188,
+            140,
+            232,
+            153,
+            154,
+            230,
+            158,
+            132,
+            77,
+            101,
+            114,
+            105,
+            100,
+            105,
+            97,
+            110,
+            229,
+            133,
+            172,
+            229,
+            155,
+            173,
+            231,
+            153,
+            189,
+            229,
+            164,
+            169,
+            230,
+            176,
+            148,
+            230,
+            184,
+            169,
+            232,
+            182,
+            133,
+            232,
+            191,
+            135,
+            51,
+            48,
+            194,
+            176,
+            67,
+            227,
+            128,
+            130,
+            172,
+            4,
+            229,
+            133,
+            168,
+            233,
+            131,
+            168,
+            232,
+            167,
+            130,
+            230,
+            181,
+            139,
+            228,
+            184,
+            186,
+            232,
+            153,
+            154,
+            230,
+            158,
+            132,
+            239,
+            188,
+            140,
+            228,
+            187,
+            133,
+            232,
+            167,
+            163,
+            233,
+            135,
+            138,
+            230,
+            157,
+            165,
+            230,
+            186,
+            144,
+            228,
+            190,
+            157,
+            232,
+            181,
+            150,
+            228,
+            184,
+            142,
+            228,
+            184,
+            164,
+            228,
+            184,
+            164,
+            231,
+            139,
+            172,
+            231,
+            171,
+            139,
+            233,
+            155,
+            134,
+            229,
+            144,
+            136,
+            227,
+            128,
+            130,
+            37,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            97,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            98,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            99,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            100,
+            46,
+            116,
+            120,
+            116,
+            6,
+            109,
+            101,
+            116,
+            104,
+            111,
+            100,
+            52,
+            97,
+            115,
+            115,
+            101,
+            115,
+            115
+          ],
+          "readable": "{\"args\":[\"acr001-safety-controlled-20261007\",\"2026-09-15，虚构Meridian公园白天气温超过30°C。\",\"全部观测为虚构，仅解释来源依赖与两两独立集合。\",[\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt\",],]\"method\":\"assess\"}"
+        },
+        "gas_used": 0,
+        "eq_outputs": {},
+        "node_config": {
+          "stake": 100,
+          "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+          "primary_model": {
+            "model": "policy:prd-gpt-5-4",
+            "config": {
+              "policy_ir": [
+                "policy",
+                [
+                  "and",
+                  [
+                    "meets_req"
+                  ],
+                  [
+                    "not",
+                    [
+                      "is",
+                      "disabled"
+                    ]
+                  ],
+                  [
+                    "cmp",
+                    "success_rate",
+                    "ge",
+                    0.2
+                  ],
+                  [
+                    "or",
+                    [
+                      "family_eq",
+                      "gpt-5.4"
+                    ],
+                    [
+                      "family_eq",
+                      "gemini-3-flash-preview"
+                    ],
+                    [
+                      "family_eq",
+                      "gpt-oss-120b"
+                    ]
+                  ]
+                ],
+                [
+                  "add",
+                  [
+                    "scale",
+                    100,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-5.4"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    10,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gemini-3-flash-preview"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    1,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-oss-120b"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.25,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_in"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.45,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_out"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.2,
+                    [
+                      "field",
+                      "success_rate"
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.1,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "latency_ms"
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "argmax"
+                ],
+                [
+                  "id"
+                ],
+                [
+                  "always",
+                  {
+                    "action": "next_candidate"
+                  }
+                ]
+              ],
+              "timeout_ms": 22000,
+              "first_token_timeout_ms": 7000
+            },
+            "plugin": "openai-compatible",
+            "provider": "llm-router",
+            "plugin_config": {
+              "api_url": "https://router.ygr.ai",
+              "api_key_env_var": "LLM_ROUTER_API_KEY"
+            },
+            "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+          },
+          "secondary_model": {
+            "model": "google/gemini-3-flash-preview",
+            "config": {
+              "models": [
+                "google/gemini-3-flash-preview",
+                "openai/gpt-5.4",
+                "anthropic/claude-sonnet-4.6"
+              ]
+            },
+            "plugin": "openai-compatible",
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "plugin_config": {
+              "api_url": "https://openrouter.ai/api",
+              "api_key_env_var": "OPENROUTERAPIKEY"
+            }
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 12,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 410.665602753,
+          "host_loop_enter_wait_ms": 16,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 21
+          },
+          "host_total_handling_time_ms": 21,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 13
+          },
+          "host_first_method_received_s": 410.665765008,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1012,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": {
+          "raw": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+          "status": "return",
+          "payload": {
+            "raw": [
+              30,
+              11,
+              100,
+              105,
+              115,
+              112,
+              111,
+              115,
+              105,
+              116,
+              105,
+              111,
+              110,
+              52,
+              82,
+              69,
+              85,
+              83,
+              69,
+              68,
+              10,
+              114,
+              101,
+              113,
+              117,
+              101,
+              115,
+              116,
+              95,
+              105,
+              100,
+              132,
+              4,
+              54,
+              56,
+              98,
+              57,
+              48,
+              57,
+              48,
+              100,
+              54,
+              51,
+              56,
+              55,
+              51,
+              56,
+              98,
+              100,
+              48,
+              50,
+              51,
+              54,
+              98,
+              48,
+              56,
+              52,
+              97,
+              102,
+              102,
+              57,
+              53,
+              97,
+              101,
+              55,
+              53,
+              53,
+              49,
+              100,
+              56,
+              100,
+              102,
+              49,
+              49,
+              100,
+              97,
+              57,
+              98,
+              50,
+              56,
+              50,
+              97,
+              97,
+              97,
+              53,
+              51,
+              54,
+              101,
+              99,
+              100,
+              52,
+              52,
+              56,
+              50,
+              53,
+              56,
+              102,
+              13,
+              114,
+              101,
+              115,
+              117,
+              108,
+              116,
+              95,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              60,
+              80,
+              65,
+              82,
+              84,
+              73,
+              65,
+              76
+            ],
+            "readable": "{\"disposition\":\"REUSED\"\"request_id\":\"68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f\"\"result_status\":\"PARTIAL\"}"
+          }
+        },
+        "calldata": {
+          "base64": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+          "raw": [
+            22,
+            4,
+            97,
+            114,
+            103,
+            115,
+            37,
+            140,
+            2,
+            97,
+            99,
+            114,
+            48,
+            48,
+            49,
+            45,
+            115,
+            97,
+            102,
+            101,
+            116,
+            121,
+            45,
+            99,
+            111,
+            110,
+            116,
+            114,
+            111,
+            108,
+            108,
+            101,
+            100,
+            45,
+            50,
+            48,
+            50,
+            54,
+            49,
+            48,
+            48,
+            55,
+            220,
+            3,
+            50,
+            48,
+            50,
+            54,
+            45,
+            48,
+            57,
+            45,
+            49,
+            53,
+            239,
+            188,
+            140,
+            232,
+            153,
+            154,
+            230,
+            158,
+            132,
+            77,
+            101,
+            114,
+            105,
+            100,
+            105,
+            97,
+            110,
+            229,
+            133,
+            172,
+            229,
+            155,
+            173,
+            231,
+            153,
+            189,
+            229,
+            164,
+            169,
+            230,
+            176,
+            148,
+            230,
+            184,
+            169,
+            232,
+            182,
+            133,
+            232,
+            191,
+            135,
+            51,
+            48,
+            194,
+            176,
+            67,
+            227,
+            128,
+            130,
+            172,
+            4,
+            229,
+            133,
+            168,
+            233,
+            131,
+            168,
+            232,
+            167,
+            130,
+            230,
+            181,
+            139,
+            228,
+            184,
+            186,
+            232,
+            153,
+            154,
+            230,
+            158,
+            132,
+            239,
+            188,
+            140,
+            228,
+            187,
+            133,
+            232,
+            167,
+            163,
+            233,
+            135,
+            138,
+            230,
+            157,
+            165,
+            230,
+            186,
+            144,
+            228,
+            190,
+            157,
+            232,
+            181,
+            150,
+            228,
+            184,
+            142,
+            228,
+            184,
+            164,
+            228,
+            184,
+            164,
+            231,
+            139,
+            172,
+            231,
+            171,
+            139,
+            233,
+            155,
+            134,
+            229,
+            144,
+            136,
+            227,
+            128,
+            130,
+            37,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            97,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            98,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            99,
+            46,
+            116,
+            120,
+            116,
+            244,
+            8,
+            104,
+            116,
+            116,
+            112,
+            115,
+            58,
+            47,
+            47,
+            114,
+            97,
+            119,
+            46,
+            103,
+            105,
+            116,
+            104,
+            117,
+            98,
+            117,
+            115,
+            101,
+            114,
+            99,
+            111,
+            110,
+            116,
+            101,
+            110,
+            116,
+            46,
+            99,
+            111,
+            109,
+            47,
+            104,
+            97,
+            108,
+            105,
+            104,
+            97,
+            108,
+            105,
+            98,
+            116,
+            47,
+            101,
+            118,
+            105,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            105,
+            110,
+            100,
+            101,
+            112,
+            101,
+            110,
+            100,
+            101,
+            110,
+            99,
+            101,
+            45,
+            109,
+            97,
+            116,
+            114,
+            105,
+            120,
+            47,
+            53,
+            97,
+            49,
+            49,
+            99,
+            56,
+            50,
+            48,
+            97,
+            50,
+            56,
+            101,
+            50,
+            51,
+            51,
+            48,
+            51,
+            50,
+            57,
+            56,
+            102,
+            49,
+            50,
+            54,
+            53,
+            48,
+            51,
+            55,
+            55,
+            101,
+            101,
+            55,
+            56,
+            102,
+            97,
+            97,
+            98,
+            48,
+            98,
+            97,
+            47,
+            102,
+            105,
+            120,
+            116,
+            117,
+            114,
+            101,
+            115,
+            47,
+            115,
+            121,
+            110,
+            116,
+            104,
+            101,
+            116,
+            105,
+            99,
+            47,
+            118,
+            49,
+            47,
+            100,
+            46,
+            116,
+            120,
+            116,
+            6,
+            109,
+            101,
+            116,
+            104,
+            111,
+            100,
+            52,
+            97,
+            115,
+            115,
+            101,
+            115,
+            115
+          ],
+          "readable": "{\"args\":[\"acr001-safety-controlled-20261007\",\"2026-09-15，虚构Meridian公园白天气温超过30°C。\",\"全部观测为虚构，仅解释来源依赖与两两独立集合。\",[\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt\",\"https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt\",],]\"method\":\"assess\"}"
+        },
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+          "primary_model": {
+            "model": "policy:prd-gpt-5-4",
+            "config": {
+              "policy_ir": [
+                "policy",
+                [
+                  "and",
+                  [
+                    "meets_req"
+                  ],
+                  [
+                    "not",
+                    [
+                      "is",
+                      "disabled"
+                    ]
+                  ],
+                  [
+                    "cmp",
+                    "success_rate",
+                    "ge",
+                    0.2
+                  ],
+                  [
+                    "or",
+                    [
+                      "family_eq",
+                      "gpt-5.4"
+                    ],
+                    [
+                      "family_eq",
+                      "gemini-3-flash-preview"
+                    ],
+                    [
+                      "family_eq",
+                      "gpt-oss-120b"
+                    ]
+                  ]
+                ],
+                [
+                  "add",
+                  [
+                    "scale",
+                    100,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-5.4"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    10,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gemini-3-flash-preview"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    1,
+                    [
+                      "gate",
+                      [
+                        "family_eq",
+                        "gpt-oss-120b"
+                      ],
+                      [
+                        "lit",
+                        1
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.25,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_in"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.45,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "price_out"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.2,
+                    [
+                      "field",
+                      "success_rate"
+                    ]
+                  ],
+                  [
+                    "scale",
+                    0.1,
+                    [
+                      "neg",
+                      [
+                        "normalize",
+                        [
+                          "field",
+                          "latency_ms"
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  "argmax"
+                ],
+                [
+                  "id"
+                ],
+                [
+                  "always",
+                  {
+                    "action": "next_candidate"
+                  }
+                ]
+              ],
+              "timeout_ms": 22000,
+              "first_token_timeout_ms": 7000
+            },
+            "plugin": "openai-compatible",
+            "provider": "llm-router",
+            "plugin_config": {
+              "api_url": "https://router.ygr.ai",
+              "api_key_env_var": "LLM_ROUTER_API_KEY"
+            },
+            "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+          },
+          "secondary_model": {
+            "model": "google/gemini-3-flash-preview",
+            "config": {
+              "models": [
+                "google/gemini-3-flash-preview",
+                "openai/gpt-5.4",
+                "anthropic/claude-sonnet-4.6"
+              ]
+            },
+            "plugin": "openai-compatible",
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "plugin_config": {
+              "api_url": "https://openrouter.ai/api",
+              "api_key_env_var": "OPENROUTERAPIKEY"
+            }
+          }
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 12,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 411.873209272,
+          "host_loop_enter_wait_ms": 9,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 4
+          },
+          "host_total_handling_time_ms": 4,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 7
+          },
+          "host_first_method_received_s": 411.873350596,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1118,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 9,
+  "nonce": 9,
+  "r": null,
+  "s": null,
+  "created_at": "2026-10-07T09:45:48.668764+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1791366354,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1791366350.3404377,
+          "ACCEPTED": 1791366354.1355813,
+          "PROPOSING": 1791366350.3533733,
+          "REVEALING": 1791366354.0958648,
+          "COMMITTING": 1791366351.4488695,
+          "PROPOSING.LEADER.RUN_END": 1791366351.4242296,
+          "PROPOSING.LEADER.RUN_START": 1791366350.379143,
+          "PROPOSING.LEADER.EXEC_START": 1791366350.3751447,
+          "PROPOSING.VALIDATORS_SELECTED": 1791366350.3668697,
+          "COMMITTING.VALIDATORS_PREPARED": 1791366351.4590664,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1791366352.691699,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1791366353.405901,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1791366354.0479455,
+          "PROPOSING.TRANSACTION_EXECUTED": 1791366351.4323835,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1791366351.4917135,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1791366351.5179436,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1791366351.5454998,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1791366351.5723193,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1791366351.5996401,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1791366350.3859582,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1791366351.428041,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1791366351.4876542,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1791366351.5142796,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1791366351.5411828,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1791366351.5687563,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1791366351.595619,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1791366354.060335,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1791366351.4195528,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1791366352.7418356,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1791366353.414772,
+          "COMMITTING.VALIDATOR_4_END.attempt_0": 1791366354.0560288,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1791366351.4636636,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1791366354.0640018,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1791366351.4953167,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1791366352.7302427,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1791366351.4679787,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1791366351.522017,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1791366353.4099753,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1791366351.4716556,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1791366351.5491142,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1791366351.4758515,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1791366351.5761511,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1791366351.4798534,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1791366351.603266,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1791366354.051632,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1791366351.483655,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1791366350.402413,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1791366350.3982165,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1791366350.3711667,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1791366350.3902261,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1791366350.394351,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1791366352.633348,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1791366353.3982558,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1791366354.0431135,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1791366351.5103016,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1791366351.5065866,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1791366351.5368655,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1791366351.533324,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1791366351.5644362,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1791366351.5605228,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1791366351.5911782,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1791366351.5875154,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1791366351.6180863,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1791366351.6145713,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1791366351.4992614,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1791366351.502753,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1791366351.5256202,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1791366351.529366,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1791366351.5531192,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1791366351.556972,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1791366351.5800889,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1791366351.5836384,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1791366351.6067774,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1791366351.6106675
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+            "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+            "gas_used": 0,
+            "eq_outputs": {},
+            "node_config": {
+              "stake": 100,
+              "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+              "primary_model": {
+                "model": "policy:prd-gpt-5-4",
+                "config": {
+                  "policy_ir": [
+                    "policy",
+                    [
+                      "and",
+                      [
+                        "meets_req"
+                      ],
+                      [
+                        "not",
+                        [
+                          "is",
+                          "disabled"
+                        ]
+                      ],
+                      [
+                        "cmp",
+                        "success_rate",
+                        "ge",
+                        0.2
+                      ],
+                      [
+                        "or",
+                        [
+                          "family_eq",
+                          "gpt-5.4"
+                        ],
+                        [
+                          "family_eq",
+                          "gemini-3-flash-preview"
+                        ],
+                        [
+                          "family_eq",
+                          "gpt-oss-120b"
+                        ]
+                      ]
+                    ],
+                    [
+                      "add",
+                      [
+                        "scale",
+                        100,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-5.4"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        10,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gemini-3-flash-preview"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        1,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-oss-120b"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.25,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_in"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.45,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_out"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.2,
+                        [
+                          "field",
+                          "success_rate"
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.1,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "latency_ms"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "argmax"
+                    ],
+                    [
+                      "id"
+                    ],
+                    [
+                      "always",
+                      {
+                        "action": "next_candidate"
+                      }
+                    ]
+                  ],
+                  "timeout_ms": 22000,
+                  "first_token_timeout_ms": 7000
+                },
+                "plugin": "openai-compatible",
+                "provider": "llm-router",
+                "plugin_config": {
+                  "api_url": "https://router.ygr.ai",
+                  "api_key_env_var": "LLM_ROUTER_API_KEY"
+                },
+                "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+              },
+              "secondary_model": {
+                "model": "google/gemini-3-flash-preview",
+                "config": {
+                  "models": [
+                    "google/gemini-3-flash-preview",
+                    "openai/gpt-5.4",
+                    "anthropic/claude-sonnet-4.6"
+                  ]
+                },
+                "plugin": "openai-compatible",
+                "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+                "provider": "openrouter",
+                "plugin_config": {
+                  "api_url": "https://openrouter.ai/api",
+                  "api_key_env_var": "OPENROUTERAPIKEY"
+                }
+              }
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 12,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 410.665602753,
+              "host_loop_enter_wait_ms": 16,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 21
+              },
+              "host_total_handling_time_ms": 21,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 13
+              },
+              "host_first_method_received_s": 410.665765008,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1012,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+            "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+              "primary_model": {
+                "model": "policy:prd-gpt-5-4",
+                "config": {
+                  "policy_ir": [
+                    "policy",
+                    [
+                      "and",
+                      [
+                        "meets_req"
+                      ],
+                      [
+                        "not",
+                        [
+                          "is",
+                          "disabled"
+                        ]
+                      ],
+                      [
+                        "cmp",
+                        "success_rate",
+                        "ge",
+                        0.2
+                      ],
+                      [
+                        "or",
+                        [
+                          "family_eq",
+                          "gpt-5.4"
+                        ],
+                        [
+                          "family_eq",
+                          "gemini-3-flash-preview"
+                        ],
+                        [
+                          "family_eq",
+                          "gpt-oss-120b"
+                        ]
+                      ]
+                    ],
+                    [
+                      "add",
+                      [
+                        "scale",
+                        100,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-5.4"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        10,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gemini-3-flash-preview"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        1,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-oss-120b"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.25,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_in"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.45,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_out"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.2,
+                        [
+                          "field",
+                          "success_rate"
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.1,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "latency_ms"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "argmax"
+                    ],
+                    [
+                      "id"
+                    ],
+                    [
+                      "always",
+                      {
+                        "action": "next_candidate"
+                      }
+                    ]
+                  ],
+                  "timeout_ms": 22000,
+                  "first_token_timeout_ms": 7000
+                },
+                "plugin": "openai-compatible",
+                "provider": "llm-router",
+                "plugin_config": {
+                  "api_url": "https://router.ygr.ai",
+                  "api_key_env_var": "LLM_ROUTER_API_KEY"
+                },
+                "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+              },
+              "secondary_model": {
+                "model": "google/gemini-3-flash-preview",
+                "config": {
+                  "models": [
+                    "google/gemini-3-flash-preview",
+                    "openai/gpt-5.4",
+                    "anthropic/claude-sonnet-4.6"
+                  ]
+                },
+                "plugin": "openai-compatible",
+                "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+                "provider": "openrouter",
+                "plugin_config": {
+                  "api_url": "https://openrouter.ai/api",
+                  "api_key_env_var": "OPENROUTERAPIKEY"
+                }
+              }
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 12,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 411.873209272,
+              "host_loop_enter_wait_ms": 9,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 4
+              },
+              "host_total_handling_time_ms": 4,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 7
+              },
+              "host_first_method_received_s": 411.873350596,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1118,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ],
+        "consensus_round": "Accepted",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+            "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+              "primary_model": {
+                "model": "policy:prd-gemma",
+                "config": {
+                  "policy_ir": [
+                    "policy",
+                    [
+                      "and",
+                      [
+                        "meets_req"
+                      ],
+                      [
+                        "not",
+                        [
+                          "is",
+                          "disabled"
+                        ]
+                      ],
+                      [
+                        "cmp",
+                        "success_rate",
+                        "ge",
+                        0.2
+                      ],
+                      [
+                        "or",
+                        [
+                          "family_eq",
+                          "gemma-4-31b-it"
+                        ],
+                        [
+                          "family_eq",
+                          "gemma-4-26b-a4b-it"
+                        ],
+                        [
+                          "family_eq",
+                          "gpt-5.4"
+                        ]
+                      ]
+                    ],
+                    [
+                      "add",
+                      [
+                        "scale",
+                        100,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gemma-4-31b-it"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        10,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gemma-4-26b-a4b-it"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        1,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-5.4"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.25,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_in"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.45,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_out"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.2,
+                        [
+                          "field",
+                          "success_rate"
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.1,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "latency_ms"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "argmax"
+                    ],
+                    [
+                      "id"
+                    ],
+                    [
+                      "always",
+                      {
+                        "action": "next_candidate"
+                      }
+                    ]
+                  ],
+                  "timeout_ms": 22000,
+                  "first_token_timeout_ms": 7000
+                },
+                "plugin": "openai-compatible",
+                "provider": "llm-router",
+                "plugin_config": {
+                  "api_url": "https://router.ygr.ai",
+                  "api_key_env_var": "LLM_ROUTER_API_KEY"
+                },
+                "fallback_validator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+              },
+              "secondary_model": {
+                "model": "google/gemini-3-flash-preview",
+                "config": {
+                  "models": [
+                    "google/gemini-3-flash-preview",
+                    "openai/gpt-5.4",
+                    "anthropic/claude-sonnet-4.6"
+                  ]
+                },
+                "plugin": "openai-compatible",
+                "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+                "provider": "openrouter",
+                "plugin_config": {
+                  "api_url": "https://openrouter.ai/api",
+                  "api_key_env_var": "OPENROUTERAPIKEY"
+                }
+              }
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 12,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 412.873557118,
+              "host_loop_enter_wait_ms": 1009,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 45
+              },
+              "host_total_handling_time_ms": 45,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 1007
+              },
+              "host_first_method_received_s": 412.873673572,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1856,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "node_config": {
+              "id": 5521,
+              "model": "policy:prd-sonnet",
+              "stake": 100,
+              "config": {
+                "policy_ir": [
+                  "policy",
+                  [
+                    "and",
+                    [
+                      "meets_req"
+                    ],
+                    [
+                      "not",
+                      [
+                        "is",
+                        "disabled"
+                      ]
+                    ],
+                    [
+                      "cmp",
+                      "success_rate",
+                      "ge",
+                      0.2
+                    ],
+                    [
+                      "or",
+                      [
+                        "family_eq",
+                        "claude-sonnet-4-6"
+                      ],
+                      [
+                        "family_eq",
+                        "gpt-5.4"
+                      ],
+                      [
+                        "family_eq",
+                        "gemini-3-flash-preview"
+                      ]
+                    ]
+                  ],
+                  [
+                    "add",
+                    [
+                      "scale",
+                      100,
+                      [
+                        "gate",
+                        [
+                          "family_eq",
+                          "claude-sonnet-4-6"
+                        ],
+                        [
+                          "lit",
+                          1
+                        ]
+                      ]
+                    ],
+                    [
+                      "scale",
+                      10,
+                      [
+                        "gate",
+                        [
+                          "family_eq",
+                          "gpt-5.4"
+                        ],
+                        [
+                          "lit",
+                          1
+                        ]
+                      ]
+                    ],
+                    [
+                      "scale",
+                      1,
+                      [
+                        "gate",
+                        [
+                          "family_eq",
+                          "gemini-3-flash-preview"
+                        ],
+                        [
+                          "lit",
+                          1
+                        ]
+                      ]
+                    ],
+                    [
+                      "scale",
+                      0.25,
+                      [
+                        "neg",
+                        [
+                          "normalize",
+                          [
+                            "field",
+                            "price_in"
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "scale",
+                      0.45,
+                      [
+                        "neg",
+                        [
+                          "normalize",
+                          [
+                            "field",
+                            "price_out"
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "scale",
+                      0.2,
+                      [
+                        "field",
+                        "success_rate"
+                      ]
+                    ],
+                    [
+                      "scale",
+                      0.1,
+                      [
+                        "neg",
+                        [
+                          "normalize",
+                          [
+                            "field",
+                            "latency_ms"
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "argmax"
+                  ],
+                  [
+                    "id"
+                  ],
+                  [
+                    "always",
+                    {
+                      "action": "next_candidate"
+                    }
+                  ]
+                ],
+                "timeout_ms": 22000,
+                "first_token_timeout_ms": 7000
+              },
+              "plugin": "openai-compatible",
+              "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+              "provider": "llm-router",
+              "plugin_config": {
+                "api_url": "https://router.ygr.ai",
+                "api_key_env_var": "LLM_ROUTER_API_KEY"
+              },
+              "fallback_validator": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE"
+            },
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "node_config": {
+              "id": 5533,
+              "model": "openai/gpt-5.4",
+              "stake": 100,
+              "config": {
+                "models": [
+                  "openai/gpt-5.4",
+                  "anthropic/claude-sonnet-4.6",
+                  "google/gemini-3-flash-preview"
+                ]
+              },
+              "plugin": "openai-compatible",
+              "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+              "provider": "openrouter",
+              "plugin_config": {
+                "api_url": "https://openrouter.ai/api",
+                "api_key_env_var": "OPENROUTERAPIKEY"
+              },
+              "fallback_validator": "0x90402341F0B0e97b23023c0a87de957FB7148E0F"
+            },
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AB4LZGlzcG9zaXRpb240UkVVU0VECnJlcXVlc3RfaWSEBDY4YjkwOTBkNjM4NzM4YmQwMjM2YjA4NGFmZjk1YWU3NTUxZDhkZjExZGE5YjI4MmFhYTUzNmVjZDQ0ODI1OGYNcmVzdWx0X3N0YXR1czxQQVJUSUFM",
+            "calldata": "FgRhcmdzJYwCYWNyMDAxLXNhZmV0eS1jb250cm9sbGVkLTIwMjYxMDA33AMyMDI2LTA5LTE177yM6Jma5p6ETWVyaWRpYW7lhazlm63nmb3lpKnmsJTmuKnotoXov4czMMKwQ+OAgqwE5YWo6YOo6KeC5rWL5Li66Jma5p6E77yM5LuF6Kej6YeK5p2l5rqQ5L6d6LWW5LiO5Lik5Lik54us56uL6ZuG5ZCI44CCJfQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9hLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9iLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9jLnR4dPQIaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhbGloYWxpYnQvZXZpZGVuY2UtaW5kZXBlbmRlbmNlLW1hdHJpeC81YTExYzgyMGEyOGUyMzMwMzI5OGYxMjY1MDM3N2VlNzhmYWFiMGJhL2ZpeHR1cmVzL3N5bnRoZXRpYy92MS9kLnR4dAZtZXRob2Q0YXNzZXNz",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+              "primary_model": {
+                "model": "policy:prd-deepseek",
+                "config": {
+                  "policy_ir": [
+                    "policy",
+                    [
+                      "and",
+                      [
+                        "meets_req"
+                      ],
+                      [
+                        "not",
+                        [
+                          "is",
+                          "disabled"
+                        ]
+                      ],
+                      [
+                        "cmp",
+                        "success_rate",
+                        "ge",
+                        0.2
+                      ],
+                      [
+                        "or",
+                        [
+                          "family_eq",
+                          "deepseek-v3.2"
+                        ],
+                        [
+                          "family_eq",
+                          "gpt-oss-120b"
+                        ],
+                        [
+                          "family_eq",
+                          "gpt-5.4"
+                        ]
+                      ]
+                    ],
+                    [
+                      "add",
+                      [
+                        "scale",
+                        100,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "deepseek-v3.2"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        10,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-oss-120b"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        1,
+                        [
+                          "gate",
+                          [
+                            "family_eq",
+                            "gpt-5.4"
+                          ],
+                          [
+                            "lit",
+                            1
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.25,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_in"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.45,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "price_out"
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.2,
+                        [
+                          "field",
+                          "success_rate"
+                        ]
+                      ],
+                      [
+                        "scale",
+                        0.1,
+                        [
+                          "neg",
+                          [
+                            "normalize",
+                            [
+                              "field",
+                              "latency_ms"
+                            ]
+                          ]
+                        ]
+                      ]
+                    ],
+                    [
+                      "argmax"
+                    ],
+                    [
+                      "id"
+                    ],
+                    [
+                      "always",
+                      {
+                        "action": "next_candidate"
+                      }
+                    ]
+                  ],
+                  "timeout_ms": 22000,
+                  "first_token_timeout_ms": 7000
+                },
+                "plugin": "openai-compatible",
+                "provider": "llm-router",
+                "plugin_config": {
+                  "api_url": "https://router.ygr.ai",
+                  "api_key_env_var": "LLM_ROUTER_API_KEY"
+                },
+                "fallback_validator": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb"
+              },
+              "secondary_model": {
+                "model": "anthropic/claude-sonnet-4.6",
+                "config": {
+                  "models": [
+                    "anthropic/claude-sonnet-4.6",
+                    "openai/gpt-5.4",
+                    "google/gemini-3-flash-preview"
+                  ]
+                },
+                "plugin": "openai-compatible",
+                "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+                "provider": "openrouter",
+                "plugin_config": {
+                  "api_url": "https://openrouter.ai/api",
+                  "api_key_env_var": "OPENROUTERAPIKEY"
+                }
+              }
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 12,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 413.660975769,
+              "host_loop_enter_wait_ms": 1794,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 4
+              },
+              "host_total_handling_time_ms": 4,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 1790
+              },
+              "host_first_method_received_s": 413.66135038,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 2420,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "0bf1c7a76c056c09d9f0a1a4d31b3a6ce2d82e5b976b7c717748a0b3d4b41e58",
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1791366384.1075044,
+      "COMMITTING.VALIDATOR_2.RUN_END": 1791366354.754667,
+      "COMMITTING.VALIDATOR_3.RUN_END": 1791366355.3517752,
+      "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1791366354.7592163,
+      "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1791366355.3561213,
+      "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1791366354.7493608,
+      "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1791366355.3466754
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1791366354",
+  "rotation_count": 0,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9044909808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b903e427241a99000000000000000000000000cbc19a09b41a3450fad5881386c069ed5ae0313c0000000000000000000000007045b893e15b699e04494aa3849730bc6aa1c8640000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000304f90301b902fd160461726773258c026163723030312d7361666574792d636f6e74726f6c6c65642d3230323631303037dc03323032362d30392d3135efbc8ce8999ae69e844d6572696469616ee585ace59bade799bde5a4a9e6b094e6b8a9e8b685e8bf873330c2b043e38082ac04e585a8e983a8e8a782e6b58be4b8bae8999ae69e84efbc8ce4bb85e8a7a3e9878ae69da5e6ba90e4be9de8b596e4b88ee4b8a4e4b8a4e78bace7ab8be99b86e59088e3808225f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f612e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f622e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f632e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f642e747874066d6574686f643461737365737300000000000000000000000000000000000000000000000000000000008301e481a0c9348a801d752f1349846df6b9decc2036377e67f08e944c22a0fc7401144620a0514083667884798acf26e51892f65df1d6c644bfe87192c70216b86725892437"
+  },
+  "value_credited": false,
+  "current_timestamp": "1791366444",
+  "sender": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "recipient": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "tx_slot": "0",
+  "created_timestamp": "1791366348",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0x8c0ea62020311b5718fe53bab1f3f4bad3aeca2ab2429e5eb719683c939ef9f8",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+  "last_leader": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+  "result_name": "MAJORITY_AGREE",
+  "tx_data": "f90301b902fd160461726773258c026163723030312d7361666574792d636f6e74726f6c6c65642d3230323631303037dc03323032362d30392d3135efbc8ce8999ae69e844d6572696469616ee585ace59bade799bde5a4a9e6b094e6b8a9e8b685e8bf873330c2b043e38082ac04e585a8e983a8e8a782e6b58be4b8bae8999ae69e84efbc8ce4bb85e8a7a3e9878ae69da5e6ba90e4be9de8b596e4b88ee4b8a4e4b8a4e78bace7ab8be99b86e59088e3808225f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f612e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f622e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f632e747874f40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f68616c6968616c6962742f65766964656e63652d696e646570656e64656e63652d6d61747269782f356131316338323061323865323333303332393866313236353033373765653738666161623062612f66697874757265732f73796e7468657469632f76312f642e747874066d6574686f643461737365737300",
+  "tx_execution_hash": "0x4a3e4314c896c0f6d70a846c7e98a2b60594748c53d5ae06e5c23c6ad0d786a1",
+  "eq_blocks_outputs": "0xcdc6c28000c0c080c5c480c28000",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658"
+    ],
+    "validator_votes_hash": [
+      "0x6444b3d9cdc284c6b88369ef84dffd2e46ab285ef59826957df8e9500396b60b",
+      "0x4aa5eef34db98ac5d4674057e3d724470897f2d0c7493a9709487cac4cfa8558",
+      "0xbb690acb9a5e4786a23b7421dfcd646dd95cbd92113dd66dd1ab4a14bdb7e878",
+      "0x79552217759342fd933995076e047f9f3b6bc3f2d639c704285a23ff54dfd4ad",
+      "0x5ec79e31ebdf23dc65a1723fdb13e2be07702e044399680e89e762d484c58216"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      5,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "IDLE",
+      "AGREE"
+    ]
+  },
+  "blockHash": null,
+  "blockNumber": null,
+  "to": null,
+  "transactionIndex": null,
+  "typeHex": 2,
+  "statusName": "FINALIZED"
+}

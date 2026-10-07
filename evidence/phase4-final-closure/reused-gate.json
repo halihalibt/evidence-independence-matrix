@@ -1,0 +1,33 @@
+{
+  "gate": "PASS",
+  "case": "reused",
+  "transaction": "0x8c0ea62020311b5718fe53bab1f3f4bad3aeca2ab2429e5eb719683c939ef9f8",
+  "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+  "errors": [],
+  "finalized": true,
+  "consensus_result": "MAJORITY_AGREE",
+  "actual_success_count": 3,
+  "actual_addresses": [
+    "0x772ffcd1df6cc566ec4b8d3f4f4f8ebbb6b36c84",
+    "0x4404fb70d490c935758146f42a73dc850ff95c71",
+    "0xec2fb79cd12255eb34886ced7332f27b98dee658"
+  ],
+  "rounds": "1",
+  "rotations": 0,
+  "record_invariant_validation": "PASS",
+  "actual_return": [
+    {
+      "disposition": "REUSED",
+      "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+      "result_status": "PARTIAL"
+    },
+    {
+      "disposition": "REUSED",
+      "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+      "result_status": "PARTIAL"
+    }
+  ],
+  "read_variant": "latest-final",
+  "proof": "REAL STUDIONET RECEIPT/VOTES + FINALIZED READBACK; pure core used for invariant check only; no mock model proof",
+  "semantic_negative_live_tests": "NOT_VERIFIED"
+}

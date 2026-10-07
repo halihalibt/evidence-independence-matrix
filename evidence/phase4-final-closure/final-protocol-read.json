@@ -1,0 +1,34 @@
+{
+  "address": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "result": {
+    "limits": {
+      "body_bytes": 32768,
+      "claim": 600,
+      "client_key": 64,
+      "context": 400,
+      "sources_max": 4,
+      "sources_min": 2,
+      "text_codepoints": 8000,
+      "url_bytes": 512
+    },
+    "protocol_version": "EIM-V1-STUDIO",
+    "relation_rules": "EIM-V1-STUDIO",
+    "schema_version": "EIM-CANDIDATE-V1",
+    "source_rules": {
+      "extensions": [
+        ".txt",
+        ".md",
+        ".adoc",
+        ".sol"
+      ],
+      "hosts": [
+        "raw.githubusercontent.com",
+        "<legal-github-owner>.github.io"
+      ],
+      "scheme": "https"
+    }
+  },
+  "transactionHashVariant": "latest-final",
+  "time": "2026-10-07T09:46:22.622Z",
+  "matches": true
+}

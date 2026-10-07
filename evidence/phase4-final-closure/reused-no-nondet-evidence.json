@@ -1,0 +1,53 @@
+{
+  "scope": "Network exposed fields only; no invented private HTTP log",
+  "records": [
+    {
+      "role": "leader",
+      "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+      "execution_result": "SUCCESS",
+      "vote": null,
+      "eq_outputs": {},
+      "llm": "NOT_EXPOSED"
+    },
+    {
+      "role": "leader",
+      "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+      "execution_result": "SUCCESS",
+      "vote": "agree",
+      "eq_outputs": "NOT_EXPOSED",
+      "llm": "NOT_EXPOSED"
+    },
+    {
+      "role": "validator",
+      "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "execution_result": "SUCCESS",
+      "vote": "agree",
+      "eq_outputs": "NOT_EXPOSED",
+      "llm": "NOT_EXPOSED"
+    },
+    {
+      "role": "validator",
+      "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "execution_result": "ERROR",
+      "vote": "idle",
+      "eq_outputs": "NOT_EXPOSED",
+      "llm": "NOT_EXPOSED"
+    },
+    {
+      "role": "validator",
+      "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+      "execution_result": "ERROR",
+      "vote": "idle",
+      "eq_outputs": "NOT_EXPOSED",
+      "llm": "NOT_EXPOSED"
+    },
+    {
+      "role": "validator",
+      "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "execution_result": "SUCCESS",
+      "vote": "agree",
+      "eq_outputs": "NOT_EXPOSED",
+      "llm": "NOT_EXPOSED"
+    }
+  ]
+}

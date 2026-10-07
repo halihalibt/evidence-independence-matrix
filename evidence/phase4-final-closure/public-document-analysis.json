@@ -1,0 +1,181 @@
+{
+  "transaction": "0x77ddb362ff4fa11dc9a827de14f143da266c3c9c82d018950c9fc9376b45f4bb",
+  "status": "FINALIZED",
+  "result": "MAJORITY_AGREE",
+  "result_code": 6,
+  "rounds": "1",
+  "leader_rotations": 0,
+  "initial_validators": 5,
+  "round_data": [
+    {
+      "round": "Accepted",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "ACCEPTED"
+      ],
+      "leader": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46",
+              "result_status": "COMPLETE"
+            }
+          },
+          "llm_tokens": {
+            "node-0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3/policy:prd-qwen": {
+              "input": 3884,
+              "total": 3909,
+              "output": 25
+            }
+          }
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "execution_result": "SUCCESS",
+          "result": {
+            "kind": "RETURN",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46",
+              "result_status": "COMPLETE"
+            }
+          },
+          "llm_tokens": {
+            "node-0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3/policy:prd-qwen": {
+              "input": 4671,
+              "total": 4821,
+              "output": 150
+            }
+          }
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 4947,
+              "total": 5163,
+              "output": 216
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        },
+        {
+          "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        },
+        {
+          "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "nondet_disagree": null,
+          "genvm_result": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          }
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "nondet_disagree": null,
+          "llm_tokens": {
+            "node-0x4404Fb70d490c935758146f42A73DC850FF95C71/policy:prd-gemma": {
+              "input": 4960,
+              "total": 5150,
+              "output": 190
+            }
+          },
+          "genvm_result": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          }
+        }
+      ],
+      "actual_success_addresses": [
+        "0x6737ca1d6bdf8b7c4f19143e2d55581ca64eb7c3",
+        "0x03d58a4def6fdfc032a56374785a5f571d07bc11",
+        "0x4404fb70d490c935758146f42a73dc850ff95c71"
+      ],
+      "actual_success_count": 3
+    }
+  ],
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+      "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71"
+    ],
+    "validator_votes_hash": [
+      "0xa3f339cc495c6c57e4fb1776f02789648e241911dab4d51883332895c309a30d",
+      "0xca20b06fbeb26200e21161b4db62ab4e301e486f1a4e1ef3afea26f75deb46c2",
+      "0x76bfe9b31177685606fdb786aef117ee12db0aa2bfdc8b37cb4e6e5d3ca2f9fa",
+      "0xa37e7ae9fc4cb96df4e5a104c7438208b9bb9ec864b67384585e41bc5f7a8a88",
+      "0xf836a8c50d896a58b9957157b787feaa175c02cad56b272293a28a06ac5bf9de"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      5,
+      1
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "IDLE",
+      "AGREE"
+    ]
+  },
+  "meaning": "Actual exposed executions/votes; identities do not prove different operators/model families. No private Validator candidate inferred."
+}

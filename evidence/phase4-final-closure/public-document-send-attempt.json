@@ -1,0 +1,6 @@
+{
+  "time": "2026-10-07T09:43:44.779Z",
+  "method": "eth_sendRawTransaction",
+  "signed_data_sha256": "23c269ceaccd6f9c883998b379250ad4b0a6fe4a3706670d5301ed0ca59a796d",
+  "source_commit": "4874fd469cb5477b9d8f8ec9dbc19252a6112e6e"
+}

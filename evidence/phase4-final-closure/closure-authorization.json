@@ -1,0 +1,12 @@
+{
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "canonical": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "source_commit": "4874fd469cb5477b9d8f8ec9dbc19252a6112e6e",
+  "source_sha256": "121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095",
+  "authorized_new": 1,
+  "authorized_reused": 1,
+  "no_deployment": true,
+  "new_cash": 0,
+  "controlled_seed": "Prior exact final-canonical frozen record; read-only baseline, not a new run"
+}

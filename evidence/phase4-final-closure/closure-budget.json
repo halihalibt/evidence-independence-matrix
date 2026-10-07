@@ -1,0 +1,10 @@
+{
+  "deployments": 0,
+  "NEW": 1,
+  "REUSED": 1,
+  "raw_submissions": 2,
+  "retries": 0,
+  "new_faucet_requests": 0,
+  "cash_spending": 0,
+  "balance_after_wei": "2000000000000000000"
+}
