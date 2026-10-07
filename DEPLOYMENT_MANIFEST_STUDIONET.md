@@ -13,7 +13,7 @@
 | RPC |https://studio.genlayer.com/api|
 | SDK / GenVM / tests |genlayer-js1.1.8 /GenVM v0.2.16 /genlayer-test0.29.2|
 | Depends |py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6|
-| Publication status |Final source is locally staged; remote publication BLOCKED by GitHub connector error. Do not claim remote commit availability yet.|
+| Publication status |Public source/evidence checkpoint a54a4fde7a6d601de0ef470687e1104e0eb989cc; unchanged canonical file verified byte-for-byte. Later documentation publication is distinct from deployment source commit.|
 
 The immutable deployed source commit is preserved in [canonical Git bundle](deployment/canonical-source.bundle); the checked-in production file matches its SHA256. A later documentation/publication commit is distinct from the deployment source commit. Business protocol/IDs retain EIM-V1-STUDIO; consensus revision, source hash and contract address distinguish the approved safety implementation. [Full manifest](deployment/canonical.json) and [network evidence](ONCHAIN_EVIDENCE.md).
 

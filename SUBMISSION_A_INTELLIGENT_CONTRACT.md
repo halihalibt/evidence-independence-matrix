@@ -3,7 +3,7 @@
 **Title:**Evidence Independence Matrix
 **One-line description:**A reusable GenLayer primitive for claim-scoped visible-source dependence and maximum supported pairwise-independent evidence sets.
 **Category / positioning:**Intelligent Contract primitive;provenance/evidence coordination, not a truth oracle.
-**Status:**Local package ready;remote final-source publication BLOCKED, so this is not a Portal-ready claim yet.
+**Status:**Public source/docs/evidence available; submission materials ready for user review. No Portal submission performed.
 
 ## Problem / primitive
 
@@ -23,9 +23,9 @@ assess(client_key,claim,context,urls):anyactualsender,NEW/REUSED request/status 
 
 ## Deployment / repository / source identity
 
-Repository:https://github.com/halihalibt/evidence-independence-matrix. Final implementation publication pending;do not treat current remote fixture-only state as complete.
+Repository:https://github.com/halihalibt/evidence-independence-matrix. Complete public source/evidence checkpoint `a54a4fde7a6d601de0ef470687e1104e0eb989cc`; fixture history preserved.
 Canonical contract:`0x7045b893E15B699e04494aA3849730bC6Aa1C864`;Stable Studionet61999;RPC https://studio.genlayer.com/api;protocolEIM-V1-STUDIO/schemaEIM-CANDIDATE-V1/consensusACR-001-SAFETY-1.
-Deployment source commit:`4874fd469cb5477b9d8f8ec9dbc19252a6112e6e` (local,bundle recoverable;remotecommit link not verified),fileSHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`. Documentation/publication commit will be recorded separately.
+Deployment source commit:`4874fd469cb5477b9d8f8ec9dbc19252a6112e6e` (local,bundle recoverable;remotecommit link not verified),fileSHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`. Documentation/publication commits are separate; deployed source identity remains unchanged.
 Deployment tx:[0x2486995a27e99c7d3bd1da857e9af39b330eb2092f066edb780aa44caacd3007](https://explorer-studio.genlayer.com/tx/0x2486995a27e99c7d3bd1da857e9af39b330eb2092f066edb780aa44caacd3007),FINALIZED/SUCCESS/MAJORITY_AGREE.
 
 ## Verified NEW / transactions / consensus evidence
@@ -41,4 +41,4 @@ OpenREADME→source→customLeader/Validator→ONCHAIN_EVIDENCE→canonicalStudi
 
 ## Known limitations
 
-Visibleclaims do not authenticate ultimateprovenance. Nondeterministicsemantics/consensus canfail;laterrealdisagreement is preserved. OnlyboundedGitHubtext sources/testnet. No universalaccuracy/trustlessness/all-provider-independence promise. SeeKNOWN_LIMITATIONS.md/SECURITY_AND_TRUST_MODEL.md. Final public-source audit remains BLOCKED until publication succeeds.
+Visibleclaims do not authenticate ultimateprovenance. Nondeterministicsemantics/consensus canfail;laterrealdisagreement is preserved. OnlyboundedGitHubtext sources/testnet. No universalaccuracy/trustlessness/all-provider-independence promise. SeeKNOWN_LIMITATIONS.md/SECURITY_AND_TRUST_MODEL.md. Public-source byte audit PASS; exact canonical source and all retained evidence published.
