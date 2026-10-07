@@ -1,0 +1,145 @@
+[
+  {
+    "id": "http-404",
+    "kind": "http",
+    "status": 404,
+    "expected_read_status": "UNAVAILABLE"
+  },
+  {
+    "id": "http-410",
+    "kind": "http",
+    "status": 410,
+    "expected_read_status": "UNAVAILABLE"
+  },
+  {
+    "id": "http-401",
+    "kind": "http",
+    "status": 401,
+    "expected_read_status": "UNAVAILABLE"
+  },
+  {
+    "id": "http-403",
+    "kind": "http",
+    "status": 403,
+    "expected_read_status": "UNAVAILABLE"
+  },
+  {
+    "id": "oversize",
+    "kind": "body",
+    "body_case": "oversize",
+    "expected_read_status": "UNSUPPORTED"
+  },
+  {
+    "id": "invalid-utf8",
+    "kind": "body",
+    "body_case": "invalid-utf8",
+    "expected_read_status": "UNSUPPORTED"
+  },
+  {
+    "id": "html",
+    "kind": "body",
+    "body_case": "html",
+    "expected_read_status": "UNSUPPORTED"
+  },
+  {
+    "id": "unsupported-extension",
+    "kind": "url",
+    "url": "https://eim-fixtures.github.io/a.html",
+    "expected_error": "UNSUPPORTED_URL"
+  },
+  {
+    "id": "http-429",
+    "kind": "http",
+    "status": 429,
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "http-500",
+    "kind": "http",
+    "status": 500,
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "http-503",
+    "kind": "http",
+    "status": 503,
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "timeout",
+    "kind": "transport",
+    "failure": "timeout",
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "dns",
+    "kind": "transport",
+    "failure": "dns",
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "connection",
+    "kind": "transport",
+    "failure": "connection",
+    "expected_error": "SOURCE_TEMPORARILY_UNAVAILABLE"
+  },
+  {
+    "id": "model-failure",
+    "kind": "model-failure",
+    "expected_error": "MODEL_EXECUTION_FAILED"
+  },
+  {
+    "id": "invalid-json",
+    "kind": "model-output",
+    "raw": "not JSON",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "duplicate-key",
+    "kind": "model-output",
+    "raw": "{\"relevance\":[\"RELEVANT\",\"RELEVANT\"],\"relevance\":[],\"relations\":[\"UNKNOWN\"]}",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "illegal-enum",
+    "kind": "model-output",
+    "raw": "{\"relevance\":[\"RELEVANT\",\"RELEVANT\"],\"relations\":[\"SELF\"]}",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "wrong-relevance-length",
+    "kind": "model-output",
+    "raw": "{\"relevance\":[\"RELEVANT\"],\"relations\":[\"UNKNOWN\"]}",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "wrong-relation-length",
+    "kind": "model-output",
+    "raw": "{\"relevance\":[\"RELEVANT\",\"RELEVANT\"],\"relations\":[]}",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "extra-model-field",
+    "kind": "model-output",
+    "raw": "{\"relevance\":[\"RELEVANT\",\"RELEVANT\"],\"relations\":[\"UNKNOWN\"],\"reason\":\"fix me\"}",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "missing-pair",
+    "kind": "candidate",
+    "mutation": "missing-pair",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "extra-pair",
+    "kind": "candidate",
+    "mutation": "extra-pair",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  },
+  {
+    "id": "wrong-ordering",
+    "kind": "candidate",
+    "mutation": "wrong-ordering",
+    "expected_error": "INVALID_MODEL_OUTPUT"
+  }
+]
