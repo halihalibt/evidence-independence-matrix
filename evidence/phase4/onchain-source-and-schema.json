@@ -1,0 +1,73 @@
+{
+  "address": "0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03",
+  "source_sha256": "b3cf82eb14a7d23d1c8c2059d6fbc57489c6d526cfc654cff9426530f07319a7",
+  "matches_committed_source": true,
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "assess": {
+        "params": [
+          [
+            "client_key",
+            "string"
+          ],
+          [
+            "claim",
+            "string"
+          ],
+          [
+            "context",
+            "string"
+          ],
+          [
+            "urls",
+            [
+              {
+                "$rep": "string"
+              }
+            ]
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "get_assessment": {
+        "params": [
+          [
+            "request_id",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_protocol_info": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "lookup_request": {
+        "params": [
+          [
+            "creator",
+            "string"
+          ],
+          [
+            "client_key",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      }
+    }
+  }
+}

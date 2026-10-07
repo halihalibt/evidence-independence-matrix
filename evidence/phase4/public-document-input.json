@@ -1,0 +1,12 @@
+{
+  "creator": "0xcbc19a09b41a3450fad5881386c069ed5ae0313c",
+  "client_key": "erc20-v1-20261007",
+  "claim": "ERC-20规范定义balanceOf用于返回指定账户的token余额。",
+  "context": "判断范围为规范规定的接口，不是代码是否独立开发。",
+  "urls": [
+    "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+    "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+  ],
+  "request_id": "31af0aa85506ae95ced88bc6f897b0d8bcf15841385a89bbf9faa9dec888b4c3",
+  "payload_digest": "b49273ab5265b1f812cf230cc55cc4234172aa68015bb8b2828464ce477efd4d"
+}

@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-07T01:29:36.569Z",
+  "transaction": "0x040d64c7d795f5562532c292c55318a13fc6bee15d1653b37b98d9db2cd0e3d9",
+  "address": "0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03",
+  "creator": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+  "expected_disposition": "NEW",
+  "chainId": 61999,
+  "leaderOnly": false,
+  "initial_validators": 5,
+  "consensusMaxRotations": 3
+}

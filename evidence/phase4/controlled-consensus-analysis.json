@@ -1,0 +1,921 @@
+{
+  "transaction": "0x040d64c7d795f5562532c292c55318a13fc6bee15d1653b37b98d9db2cd0e3d9",
+  "status": "FINALIZED",
+  "rotation_count": 3,
+  "num_of_rounds": "4",
+  "rounds": [
+    {
+      "round": "Leader Rotation",
+      "status_changes": [
+        "PENDING",
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING"
+      ],
+      "leaders": [
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "role": "leader",
+          "vote": null,
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": {
+            "status": "return",
+            "payload": {
+              "pairs": [
+                {
+                  "i": 0,
+                  "j": 1,
+                  "relation": "DEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 2,
+                  "relation": "INDEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 1,
+                  "j": 2,
+                  "relation": "INDEPENDENT"
+                },
+                {
+                  "i": 1,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 2,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                }
+              ],
+              "schema_version": "EIM-CANDIDATE-V1",
+              "sources": [
+                {
+                  "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+                  "index": 0,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+                },
+                {
+                  "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+                  "index": 1,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+                },
+                {
+                  "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+                  "index": 2,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+                },
+                {
+                  "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+                  "index": 3,
+                  "read_status": "READABLE",
+                  "relevance": "NOT_RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+                }
+              ]
+            }
+          },
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d/policy:prd-glm": {
+              "input": 2301,
+              "total": 3262,
+              "output": 961
+            }
+          },
+          "processing_time": 50551
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3/policy:prd-qwen": {
+              "input": 2333,
+              "total": 2389,
+              "output": 56
+            }
+          },
+          "processing_time": 3456
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2285,
+              "output": 45
+            }
+          },
+          "processing_time": 4997
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 2386,
+              "total": 2469,
+              "output": 83
+            }
+          },
+          "processing_time": 3321
+        }
+      ]
+    },
+    {
+      "round": "Leader Rotation",
+      "status_changes": [
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING"
+      ],
+      "leaders": [
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "role": "leader",
+          "vote": null,
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": {
+            "status": "return",
+            "payload": {
+              "pairs": [
+                {
+                  "i": 0,
+                  "j": 1,
+                  "relation": "DEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 2,
+                  "relation": "INDEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 1,
+                  "j": 2,
+                  "relation": "INDEPENDENT"
+                },
+                {
+                  "i": 1,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 2,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                }
+              ],
+              "schema_version": "EIM-CANDIDATE-V1",
+              "sources": [
+                {
+                  "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+                  "index": 0,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+                },
+                {
+                  "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+                  "index": 1,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+                },
+                {
+                  "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+                  "index": 2,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+                },
+                {
+                  "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+                  "index": 3,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+                }
+              ]
+            }
+          },
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0xDB1c35c1f05d885999b8f13e5735307BcC16Be88/openai/gpt-5.4": {
+              "input": 2240,
+              "total": 2285,
+              "output": 45
+            }
+          },
+          "processing_time": 3166
+        },
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "role": "validator",
+          "vote": "agree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0xDB1c35c1f05d885999b8f13e5735307BcC16Be88/openai/gpt-5.4": {
+              "input": 2240,
+              "total": 2285,
+              "output": 45
+            }
+          },
+          "processing_time": 4105
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 2386,
+              "total": 2470,
+              "output": 84
+            }
+          },
+          "processing_time": 8212
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2284,
+              "output": 44
+            }
+          },
+          "processing_time": 4528
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2284,
+              "output": 44
+            }
+          },
+          "processing_time": 4269
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        }
+      ]
+    },
+    {
+      "round": "Leader Rotation",
+      "status_changes": [
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING"
+      ],
+      "leaders": [
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "role": "leader",
+          "vote": null,
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "exit_code 1"
+          },
+          "candidate": {
+            "status_code": 2,
+            "message": "exit_code 1"
+          },
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Traceback (most recent call last):\n  File \"/contract.py\", line 289, in strict_json\n    return json.loads(raw, object_pairs_hook=object_hook, parse_constant=invalid_constant)\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/std/json/__init__.py\", line 359, in loads\n    return cls(**kw).decode(s)\n           ~~~~~~~~~~~~~~~~^^^\n  File \"/py/std/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/std/json/decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/py/libs/_genlayer_runner.py\", line 193, in <module>\n    _give_result(lambda: runner(stage_data))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/py/libs/_genlayer_runner.py\", line 65, in _give_result\n    res = res_fn()\n  File \"/py/libs/_genlayer_runner.py\", line 193, in <lambda>\n    _give_result(lambda: runner(stage_data))\n                         ~~~~~~^^^^^^^^^^^^\n  File \"/py/libs/genlayer/gl/vm.py\", line 181, in <lambda>\n    'data_leader': cloudpickle.dumps(lambda _: leader_fn()),\n                                               ~~~~~~~~~^^\n  File \"/contract.py\", line 505, in leader\n    return classify_snapshot(snapshot)\n  File \"/contract.py\", line 492, in classify_snapshot\n    return candidate_from_model_output(urls, statuses, digests, raw)\n  File \"/contract.py\", line 325, in candidate_from_model_output\n    model = strict_json(raw)\n  File \"/contract.py\", line 293, in strict_json\n    raise ProtocolError(\"INVALID_MODEL_OUTPUT\", \"invalid JSON\") from exc\ncontract.ProtocolError: INVALID_MODEL_OUTPUT: invalid JSON\n",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658/policy:prd-deepseek": {
+              "input": 2281,
+              "total": 2348,
+              "output": 67
+            }
+          },
+          "processing_time": 4749
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "exit_code 1"
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "processing_time": 2426
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "exit_code 1"
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "processing_time": 2104
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "exit_code 1"
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "processing_time": 2140
+        }
+      ]
+    },
+    {
+      "round": "Undetermined",
+      "status_changes": [
+        "PROPOSING",
+        "COMMITTING",
+        "REVEALING",
+        "UNDETERMINED"
+      ],
+      "leaders": [
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "role": "leader",
+          "vote": null,
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": {
+            "status": "return",
+            "payload": {
+              "pairs": [
+                {
+                  "i": 0,
+                  "j": 1,
+                  "relation": "DEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 2,
+                  "relation": "INDEPENDENT"
+                },
+                {
+                  "i": 0,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 1,
+                  "j": 2,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 1,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                },
+                {
+                  "i": 2,
+                  "j": 3,
+                  "relation": "UNKNOWN"
+                }
+              ],
+              "schema_version": "EIM-CANDIDATE-V1",
+              "sources": [
+                {
+                  "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+                  "index": 0,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+                },
+                {
+                  "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+                  "index": 1,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+                },
+                {
+                  "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+                  "index": 2,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+                },
+                {
+                  "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+                  "index": 3,
+                  "read_status": "READABLE",
+                  "relevance": "RELEVANT",
+                  "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+                }
+              ]
+            }
+          },
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 2386,
+              "total": 2469,
+              "output": 83
+            }
+          },
+          "processing_time": 3213
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 2386,
+              "total": 2470,
+              "output": 84
+            }
+          },
+          "processing_time": 3916
+        }
+      ],
+      "validators": [
+        {
+          "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2285,
+              "output": 45
+            }
+          },
+          "processing_time": 4523
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "role": "validator",
+          "vote": "idle",
+          "execution_result": "ERROR",
+          "result": {
+            "status_code": 2,
+            "message": "idle"
+          },
+          "candidate": null,
+          "nondet_disagree": null,
+          "error": {
+            "stderr": "Validator execution cancelled after quorum",
+            "stdout": "",
+            "raw_error": {
+              "fatal": false,
+              "causes": [
+                "VALIDATOR_QUORUM_REACHED"
+              ]
+            },
+            "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+          },
+          "processing_time": 0
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "role": "validator",
+          "vote": "disagree",
+          "execution_result": "SUCCESS",
+          "result": {
+            "status": "return",
+            "payload": {
+              "disposition": "NEW",
+              "request_id": "cb5292c15c239b53c2c474b88c09b58310f9015914e8a1af2d1c4bf372d6bcc4",
+              "result_status": "PARTIAL"
+            }
+          },
+          "candidate": null,
+          "nondet_disagree": 0,
+          "error": {
+            "stderr": "",
+            "stdout": "",
+            "raw_error": null,
+            "error_code": null,
+            "error_description": null
+          },
+          "llm_tokens": {
+            "node-0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100/policy:prd-gpt-5-4": {
+              "input": 2240,
+              "total": 2284,
+              "output": 44
+            }
+          },
+          "processing_time": 4344
+        }
+      ]
+    }
+  ],
+  "meaning": "REAL NETWORK PROPOSALS/VOTES ONLY; not a finalized Assessment; validator own classifications are not exposed by these receipts"
+}

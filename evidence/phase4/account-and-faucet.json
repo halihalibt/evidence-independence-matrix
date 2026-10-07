@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-07T00:56:10.732Z",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "account": "0xCbC19a09B41a3450FAD5881386C069ed5ae0313C",
+  "before_wei": "1000000000000000000",
+  "requested_wei": "1000000000000000000",
+  "funding": "0xddc586ce1713809d63fb6428179b7ac100b453858cdae6b95c77cbdf331f58fc",
+  "after_wei": "2000000000000000000",
+  "cash_spending": 0,
+  "sdk": "1.1.8",
+  "viem": "2.57.3",
+  "initial_validators": 5,
+  "max_rotations": 3
+}

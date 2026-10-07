@@ -1,0 +1,38 @@
+{
+  "time": "2026-10-07T00:58:24.231Z",
+  "address": "0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03",
+  "chainId": 61999,
+  "transactionHashVariant": "latest-final",
+  "info": {
+    "limits": {
+      "body_bytes": 32768,
+      "claim": 600,
+      "client_key": 64,
+      "context": 400,
+      "sources_max": 4,
+      "sources_min": 2,
+      "text_codepoints": 8000,
+      "url_bytes": 512
+    },
+    "protocol_version": "EIM-V1-STUDIO",
+    "relation_rules": "EIM-V1-STUDIO",
+    "schema_version": "EIM-CANDIDATE-V1",
+    "source_rules": {
+      "extensions": [
+        ".txt",
+        ".md",
+        ".adoc",
+        ".sol"
+      ],
+      "hosts": [
+        "raw.githubusercontent.com",
+        "<legal-github-owner>.github.io"
+      ],
+      "scheme": "https"
+    }
+  },
+  "absent": {
+    "found": false
+  },
+  "remaining_balance_wei": "2000000000000000000"
+}

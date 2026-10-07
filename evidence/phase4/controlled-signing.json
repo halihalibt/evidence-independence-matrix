@@ -1,0 +1,9 @@
+{
+  "to": "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
+  "chainId": 61999,
+  "gas": "500000",
+  "gasPrice": "0",
+  "nonce": 1,
+  "value": "0",
+  "data_sha256": "5f555648e25842443c2ac1c82efdd360c1a1970a88ccb122fbaf89fbfcbc503b"
+}

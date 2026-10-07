@@ -1,0 +1,10 @@
+{
+  "homepage": "HTTP200; observed /tx/ route strings and /contracts navigation",
+  "transaction_reference": "https://explorer-studio.genlayer.com/tx/0xaa9d8bf18cb90cfab0d25285439149ca4b6164846df37b4a1ae951e24d1eb4a3",
+  "transaction_detail_http_status": 503,
+  "contracts_list_http_status": 502,
+  "web_retrieval_tool": "not accessible",
+  "ui_status_verified": false,
+  "rpc_verified": true,
+  "classification": "EXPLORER_HTTP_READ_FAILURE; NOT_STUDIONET_UNAVAILABLE"
+}

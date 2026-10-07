@@ -1,0 +1,30 @@
+{
+  "source_commit": "b272bf64e017cadf1c8e1b0a468b32748f6907aa",
+  "source_sha256": "b3cf82eb14a7d23d1c8c2059d6fbc57489c6d526cfc654cff9426530f07319a7",
+  "onchain_source_hash_equal": true,
+  "onchain_schema_equal": true,
+  "rpc_methods_observed": [
+    "eth_chainId",
+    "eth_estimateGas",
+    "eth_gasPrice",
+    "eth_getBalance",
+    "eth_getTransactionByHash",
+    "eth_getTransactionCount",
+    "eth_getTransactionReceipt",
+    "eth_sendRawTransaction",
+    "gen_call",
+    "gen_getContractCode",
+    "gen_getContractSchema",
+    "sim_fundAccount"
+  ],
+  "actual_signed_submission_count": 1,
+  "other_networks_used": false,
+  "production_changes": false,
+  "sdk_version": "1.1.8",
+  "viem_version": "2.57.3",
+  "fee_import_mapping": "TransactionHashVariant from genlayer-js/types, same latest-final semantics",
+  "installation_note": "Exact Phase0 npm lock reused; CLI keytar native-install failure was avoided with ignore-scripts for JS SDK usage. CLI not executed; no SDK upgrade.",
+  "first_faucet_failed_attempt": "decimal string amount returned RPC -32603; native numeric amount used afterward. First balance0; later prefunding1GEN; successful credit1GEN confirmed1\u21922; origin of intervening1GEN NOT_VERIFIED.",
+  "assessment_transactions_sent": 0,
+  "cash_spending": 0
+}
