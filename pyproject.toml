@@ -1,0 +1,12 @@
+[project]
+name = "evidence-independence-matrix"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["genlayer-test==0.29.2", "genlayer-py==0.16.3", "pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --network studionet --rpc-url https://studio.genlayer.com/api --chain-type studionet"
