@@ -1,0 +1,61 @@
+{
+  "protocol": "EIM-V1-STUDIO",
+  "schema_version": "EIM-CANDIDATE-V1",
+  "consensus_revision": "ACR-001",
+  "chainId": 61999,
+  "network": "Stable Studionet",
+  "rpc": "https://studio.genlayer.com/api",
+  "explorer": "https://explorer-studio.genlayer.com",
+  "canonical_address": "0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC",
+  "deployment_status": "FINALIZED / SUCCESS / MAJORITY_AGREE / SOURCE VERIFIED",
+  "old_diagnostic_manifest": "superseded-phase4-diagnostic.json",
+  "source_sha256": "eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c",
+  "source_commit": "f80ac8d3e50691e9b0e98d748dbb8da38acb8026",
+  "phase4_gate": "BLOCKED_SYNTHETIC_SEMANTIC_EXPECTATION_REVIEW",
+  "controlled_new": "0xd65121dc4124210e677b6dd19325650cbeacdc241249a67e9d2a7aa5873f187d",
+  "cash_spending": 0,
+  "predeploy_real_model_gate": "REAL_MODEL_PREDEPLOY_GATE_UNAVAILABLE",
+  "version_strategy": "Preserve frozen business protocol/schema/ID namespace. Consensus identity is explicitly bound to ACR-001 + immutable source commit/SHA + distinct deployment address; no silent ambiguity and no new public schema field. protocol_version describes unchanged classification rules/business format, not the sole deployment/consensus identity. Version bump would alter frozen request_id/payload_digest preimages and published vectors unnecessarily. User expressly permits retaining it with explanation.",
+  "deployment_transaction": "0xf9835ad36392fc09c596d091698c16b92e63506b8e90d0cdb4cef95061c54156",
+  "get_protocol_info": {
+    "limits": {
+      "body_bytes": 32768,
+      "claim": 600,
+      "client_key": 64,
+      "context": 400,
+      "sources_max": 4,
+      "sources_min": 2,
+      "text_codepoints": 8000,
+      "url_bytes": 512
+    },
+    "protocol_version": "EIM-V1-STUDIO",
+    "relation_rules": "EIM-V1-STUDIO",
+    "schema_version": "EIM-CANDIDATE-V1",
+    "source_rules": {
+      "extensions": [
+        ".txt",
+        ".md",
+        ".adoc",
+        ".sol"
+      ],
+      "hosts": [
+        "raw.githubusercontent.com",
+        "<legal-github-owner>.github.io"
+      ],
+      "scheme": "https"
+    }
+  },
+  "deployment_finality": "FINALIZED",
+  "deployment_execution_result": "SUCCESS",
+  "acr001_real_model_gate": "PASS: approved runtime exception",
+  "controlled_request_id": "5bed9dca8ad1f603bcdc61bdcbeb79b2ca88b9cd57f63365f46cce37eb23f5d8",
+  "public_document_new": "0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9",
+  "public_document_request_id": "2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a",
+  "reused_transaction": "0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e",
+  "runtime_evidence": "evidence/phase4-acr001/phase4-runtime-summary.json",
+  "semantic_expectation_mismatch": "B-C: expected INDEPENDENT / actual DEPENDENT; review required",
+  "source_repository_status": "Source commit local and bundled; public GitHub remote still README + frozen fixtures only",
+  "status": "SUPERSEDED ACR-001 LIVENESS-PASS / SAFETY-DIAGNOSTIC DEPLOYMENT",
+  "canonical": false,
+  "historical_result_preserved": true
+}
