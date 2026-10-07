@@ -1,0 +1,44 @@
+{
+  "mode": "LOCAL READABILITY/PINNING ONLY; NO GENLAYER CLASSIFICATION",
+  "inspected_utc": "2026-10-07T00:34:44.670499+00:00",
+  "claim": "ERC-20规范定义balanceOf用于返回指定账户的token余额。",
+  "context": "判断范围为规范规定的接口，不是代码是否独立开发。",
+  "sources": [
+    {
+      "label": "ERC-20",
+      "url": "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md",
+      "local_file": "erc-20.md",
+      "fixed_ref": "f2f4ff22452dec9d340ba9b8b1ee33c962a613d6",
+      "observed_ref_commit": "f2f4ff22452dec9d340ba9b8b1ee33c962a613d6",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "strict_utf8": true,
+      "raw_body_bytes": 5601,
+      "normalized_codepoints": 5600,
+      "raw_sha256": "50d0bdc535ed8987ac5c124cb5f9c39606806c97e909aae66ef4b747dd9c93dd",
+      "content_digest": "5ad66b7c4d33aae514fc5fdffba24804a5b4b2edbda9662cb9e1ba60136ec587",
+      "local_inspection_only": true
+    },
+    {
+      "label": "IERC20",
+      "url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+      "local_file": "IERC20.sol",
+      "fixed_ref": "v5.4.0",
+      "observed_ref_commit": "c64a1edb67b6e3f4a15cca8909c9482ad33a02b0",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "strict_utf8": true,
+      "raw_body_bytes": 2781,
+      "normalized_codepoints": 2780,
+      "raw_sha256": "01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c",
+      "content_digest": "4cbb8139ede4a09ec0e79b57e6b8eda9481c0ad731fc7745a0ec058847bc8350",
+      "local_inspection_only": true
+    }
+  ],
+  "expected_semantic_rationale": "IERC20 explicitly describes the ERC-20 standard interface as defined in the ERC; both documents derive the balanceOf normative-interface claim from the ERC-20 specification. Different publishers do not imply independent origin. DEPENDENT is an expectation only; actual chain output must be preserved.",
+  "expected_relation": "DEPENDENT",
+  "actual_relation": "PENDING PHASE 4",
+  "official_ref_binding_method": "git ls-remote official repositories; commit-addressed ERC body fetched separately; exact release tag retained for OpenZeppelin",
+  "github_api_metadata": "403 in this runtime; not used as provenance evidence; official git refs and raw HTTP succeeded",
+  "real_consensus": "NOT_RUN"
+}
