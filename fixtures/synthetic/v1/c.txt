@@ -1,0 +1,5 @@
+SYNTHETIC DEMO — C — Independent field measurement
+This entire location, equipment and observation is fictitious, for protocol demonstration only.
+Location: Meridian park. Date: 2026-09-15. Daytime measurement: 13:10 local time.
+Acquisition: a fictional volunteer brought a separately calibrated handheld shaded thermometer, serial SYN-V09, and personally read 31.2 degrees Celsius on site. This field note was written directly from that instrument's display.
+This reading was acquired independently of municipal station M-17. The volunteer did not use Source A's municipal log or Source B's derivative community report to obtain this temperature evidence.
