@@ -1,0 +1,27 @@
+{
+  "scope": "PHASE2; MOCK external HTTP/model/executor only; no deployment/network consensus",
+  "contract_source_sha256": "b3cf82eb14a7d23d1c8c2059d6fbc57489c6d526cfc654cff9426530f07319a7",
+  "fixed_prompt_sha256": "20b9a852c72ec4c240e52fc1db2afd78bca439f365b52465643047bc770d2ce1",
+  "freeze_sha256": "c2c8de7785c528b24eea126d58a74576d7e39746021560b448cfd358c65a2687",
+  "protocol_version": "EIM-V1-STUDIO",
+  "candidate_schema": "EIM-CANDIDATE-V1",
+  "genvm": "v0.2.16",
+  "depends": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "std": "py-lib-genlayer-std:11rhn002yfajawsz7fai6mykznbxkxs6l91iskj5cm82c92qhy3v",
+  "cloudpickle": "py-lib-cloudpickle:1dlk6mnfabi0z7r39635amyfzw8xb6rm8bv4pmgv6ji1bfx9hghd",
+  "custom_api": "gl.vm.run_nondet_unsafe(leader,validator)",
+  "http_api": "gl.nondet.web.get(url)",
+  "model_api": "gl.nondet.exec_prompt(prompt,response_format='text')",
+  "tests": {
+    "phase1_regression": 94,
+    "phase2_focused": 74,
+    "total": 168,
+    "failures": 0,
+    "errors": 0
+  },
+  "abi_unchanged": true,
+  "vectors_unchanged": true,
+  "real_participants": "NOT_VERIFIED",
+  "network_business_transactions": "NOT_RUN",
+  "canonical_contract": "NOT_DEPLOYED"
+}

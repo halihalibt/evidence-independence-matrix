@@ -1,0 +1,127 @@
+{
+  "production_source_sha256": "b3cf82eb14a7d23d1c8c2059d6fbc57489c6d526cfc654cff9426530f07319a7",
+  "source_unchanged": true,
+  "one_business_contract": true,
+  "public_methods": [
+    "assess",
+    "get_assessment",
+    "lookup_request",
+    "get_protocol_info"
+  ],
+  "runtime_mock_paths": false,
+  "test_only_public_methods": false,
+  "hardcoded_business_results": false,
+  "local_randomness_in_identifiers": false,
+  "new_production_dependencies": false,
+  "backend_or_second_contract": false,
+  "silent_parser_repair": false,
+  "loops": [
+    {
+      "line": 304,
+      "iter": "enumerate(sources)"
+    },
+    {
+      "line": 315,
+      "iter": "zip(pairs, ordered_pairs(n))"
+    },
+    {
+      "line": 342,
+      "iter": "candidate['pairs']"
+    },
+    {
+      "line": 347,
+      "iter": "range(len(eligible) + 1)"
+    },
+    {
+      "line": 377,
+      "iter": "(('claim', 1, CLAIM_MAX), ('context', 0, CONTEXT_MAX))"
+    },
+    {
+      "line": 390,
+      "iter": "('max_supported_independent_set_size', 'dependent_pair_count', 'independent_pair_count', 'unknown_pair_count')"
+    },
+    {
+      "line": 432,
+      "iter": "headers.items()"
+    },
+    {
+      "line": 477,
+      "iter": "enumerate(urls)"
+    },
+    {
+      "line": 200,
+      "iter": "path.split('/')"
+    },
+    {
+      "line": 282,
+      "iter": "pairs"
+    },
+    {
+      "line": 348,
+      "iter": "itertools.combinations(eligible, size)"
+    },
+    {
+      "line": null,
+      "iter": "urls"
+    },
+    {
+      "line": null,
+      "iter": "RELATIONS"
+    },
+    {
+      "line": null,
+      "iter": "candidate['sources']"
+    },
+    {
+      "line": null,
+      "iter": "candidate['pairs']"
+    },
+    {
+      "line": null,
+      "iter": "range(n)"
+    },
+    {
+      "line": null,
+      "iter": "zip(ordered_pairs(n), model['relations'])"
+    },
+    {
+      "line": null,
+      "iter": "(i, j)"
+    },
+    {
+      "line": null,
+      "iter": "candidate['sources']"
+    },
+    {
+      "line": null,
+      "iter": "candidate['pairs']"
+    },
+    {
+      "line": null,
+      "iter": "candidate['sources']"
+    },
+    {
+      "line": null,
+      "iter": "candidate['pairs']"
+    },
+    {
+      "line": null,
+      "iter": "url"
+    },
+    {
+      "line": null,
+      "iter": "itertools.combinations(subset, 2)"
+    },
+    {
+      "line": null,
+      "iter": "record['max_supported_independent_set']"
+    },
+    {
+      "line": null,
+      "iter": "'\\\\?#'"
+    }
+  ],
+  "loop_bound_review": "input URLs n<=4; pair count<=6; subset count<=16; path<=512 bytes; body<=32768 bytes; parsed candidate lengths checked before derived loops. SDK response headers/model output size remain runtime resource bounds, not extra frozen application caps. No while loops or retry/crawler orchestration.",
+  "reference_helper": "content_digest(text) is the existing tested standalone single-normalization digest helper; assess fetch path hashes its already-normalized text directly, preventing a second BOM normalization. It is retained without semantic/production changes.",
+  "scope": "AST inspection + source review + local tests only; not native GenVM proof"
+}

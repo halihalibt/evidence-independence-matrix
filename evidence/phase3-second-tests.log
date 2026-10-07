@@ -1,0 +1,46 @@
+WARNING: File `gltest.config.yaml` not found in the current directory, using default config, create a `gltest.config.yaml` file to manage multiple networks
+INFO: Clearing artifacts directory: artifacts
+INFO: Using the following configuration:
+INFO:   RPC URL: https://studio.genlayer.com/api
+INFO:   Selected Network: studionet
+INFO:   Available networks: ['localnet', 'studionet', 'testnet_asimov', 'testnet_bradbury']
+INFO:   Selected chain type: studionet
+INFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury
+INFO:   Contracts directory: contracts
+INFO:   Artifacts directory: artifacts
+INFO:   Environment: .env
+INFO:   Default wait interval: 3000 ms
+INFO:   Default wait retries: 50
+INFO:   Leader only mode: False
+........................................................................ [ 34%]
+....F................................................................... [ 68%]
+...................................................................      [100%]
+=================================== FAILURES ===================================
+_________ test_public_document_offline_readability_and_digest[IERC20] __________
+
+eim = <module '_contract_evidence_independence_matrix' from '/workspace/scratch/6ad74b9a2f71/evidence-independence-matrix/contracts/evidence_independence_matrix.py'>
+harness = namespace(vm=VMContext(_sender=b'\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab\xab', _o...0x7fbecc813920>, contract=<_contract_evidence_independence_matrix.EvidenceIndependenceMatrix object at 0x7fbecc71f080>)
+source = {'label': 'IERC20', 'url': 'https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol', 'local_file': 'IERC20.sol', 'fixed_ref': 'v5.4.0', ...}
+
+    @pytest.mark.parametrize("source", json.loads((FIXTURES / "public-documents/manifest.json").read_text())["sources"], ids=lambda s: s["label"])
+    def test_public_document_offline_readability_and_digest(eim, harness, source):
+        body = (FIXTURES / "public-documents" / source["local_file"]).read_bytes()
+        assert eim.normalize_url(source["url"]) == source["url"]
+        assert hashlib.sha256(body).hexdigest() == source["raw_sha256"]
+        assert len(body) == source["raw_body_bytes"] <= eim.BODY_MAX_BYTES
+        text = eim.normalize_text(body.decode("utf-8", errors="strict"))
+        assert len(text) == source["normalized_codepoints"] <= eim.TEXT_MAX_CODEPOINTS
+        harness.urls = (source["url"],)
+        harness.responses[("Leader", source["url"])] = {"status": 200, "headers": {}, "body": body}
+        status, observed, digest = eim.fetch_source(source["url"])
+        assert (status, digest, observed) == ("READABLE", source["content_digest"], text)
+        assert harness.models == [] and harness.boundaries == 0 and harness.writes == []
+        assert "balanceOf" in text
+        if source["label"] == "IERC20":
+>           assert "ERC-20" in text and "eips.ethereum.org/EIPS/eip-20" in text
+E           AssertionError: assert ('ERC-20' in '// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.4.0) (token/ERC20/IERC20.sol)\n\npragma s...nsfer} event.\n     */\n    function transferFrom(address from, address to, uint256 value) external returns (bool);\n}' and 'eips.ethereum.org/EIPS/eip-20' in '// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.4.0) (token/ERC20/IERC20.sol)\n\npragma s...nsfer} event.\n     */\n    function transferFrom(address from, address to, uint256 value) external returns (bool);\n}')
+
+tests/test_contract_readiness.py:68: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_contract_readiness.py::test_public_document_offline_readability_and_digest[IERC20]
+1 failed, 210 passed in 0.63s

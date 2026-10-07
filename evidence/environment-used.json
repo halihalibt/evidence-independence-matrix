@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "python_packages": {
+    "genlayer-test": "0.29.2",
+    "genlayer-py": "0.16.3",
+    "pytest": "9.1.1",
+    "pip": "25.0.1"
+  },
+  "approved_javascript_sdk": "genlayer-js@1.1.8 (not used/installed in PHASE1)",
+  "genvm_artifact_version": "v0.2.16",
+  "genvm_artifact_sha256": "4f0b358ec98ec148be9b95cdfb0f0e1a6cbe64da0194fdfac3fffc6f5d1d93e2",
+  "contract_depends": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "stdlib_depends": "py-lib-genlayer-std:11rhn002yfajawsz7fai6mykznbxkxs6l91iskj5cm82c92qhy3v",
+  "mode": "official Direct loader; deterministic only; no live network transport, LLM, or consensus",
+  "node": "24.19.0",
+  "npm": "11.9.0",
+  "native_genvm_execution": "NOT_RUN",
+  "js_wallet_integration": "NOT_RUN"
+}

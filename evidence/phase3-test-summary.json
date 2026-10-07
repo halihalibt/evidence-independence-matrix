@@ -1,0 +1,66 @@
+{
+  "mode": "LOCAL SDK / MOCK HTTP MODEL EXECUTOR; NOT REAL NETWORK PROOF",
+  "pytest_exit_code": 0,
+  "suite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "211",
+    "time": "0.582",
+    "timestamp": "2026-10-07T11:38:04.999329+11:00",
+    "hostname": "7f871a8cb18d"
+  },
+  "tests_by_module": {
+    "tests.test_consensus": 74,
+    "tests.test_contract_readiness": 43,
+    "tests.test_deterministic": 94
+  },
+  "original_node_ids_preserved": 168,
+  "new_phase3_tests": 43,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "original_files_byte_unchanged": [
+    "contracts/evidence_independence_matrix.py",
+    "tests/conftest.py",
+    "tests/test_consensus.py",
+    "tests/test_deterministic.py",
+    "tests/vectors/canonical-v1.json",
+    "tests/vectors/verify_vectors.mjs",
+    "requirements.lock",
+    "pyproject.toml",
+    "docs/ARCHITECTURE_FREEZE_V1.md",
+    "docs/CANONICAL_CLASSIFICATION_PROMPT_V1.md",
+    "docs/ENVIRONMENT_LOCK.md",
+    "evidence/public-schema.json",
+    "CONTROL/ENVIRONMENT_LOCK.md",
+    "CONTROL/PHASE1_REVIEW.md",
+    "CONTROL/PHASE2_REVIEW.md"
+  ],
+  "attempts": [
+    {
+      "run": "initial",
+      "tests": 211,
+      "failures": 3,
+      "root_cause": "new tests assumed fetch tuple ordering and different SDK array schema representation",
+      "fix": "tests only; production unchanged"
+    },
+    {
+      "run": "second",
+      "tests": 211,
+      "failures": 1,
+      "root_cause": "new test/document rationale assumed a specific EIP URL not present in IERC20 v5.4.0",
+      "fix": "assert and rationale bind actual explicit ERC-20 standard-interface declaration"
+    },
+    {
+      "run": "final",
+      "tests": 211,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "shell_not_run": "one retry used wrong cwd for log redirection; pytest never started; corrected before final run",
+  "real_consensus": "NOT_RUN",
+  "business_transactions": "NOT_RUN"
+}

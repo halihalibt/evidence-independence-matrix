@@ -1,0 +1,68 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "assess": {
+      "params": [
+        [
+          "client_key",
+          "string"
+        ],
+        [
+          "claim",
+          "string"
+        ],
+        [
+          "context",
+          "string"
+        ],
+        [
+          "urls",
+          [
+            {
+              "$rep": "string"
+            }
+          ]
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "dict",
+      "payable": false
+    },
+    "get_assessment": {
+      "params": [
+        [
+          "request_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_protocol_info": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "lookup_request": {
+      "params": [
+        [
+          "creator",
+          "string"
+        ],
+        [
+          "client_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    }
+  }
+}

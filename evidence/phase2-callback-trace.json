@@ -1,0 +1,39 @@
+{
+  "mode": "MOCK_HTTP_AND_MODEL_AND_EXECUTOR; NOT_REAL_STUDIONET_CONSENSUS",
+  "http_calls": [
+    [
+      "Leader",
+      "https://bob.github.io/b.md"
+    ],
+    [
+      "Leader",
+      "https://raw.githubusercontent.com/a/r/main/a.txt"
+    ],
+    [
+      "Validator",
+      "https://bob.github.io/b.md"
+    ],
+    [
+      "Validator",
+      "https://raw.githubusercontent.com/a/r/main/a.txt"
+    ]
+  ],
+  "classification_calls": [
+    {
+      "participant": "Leader",
+      "prompt_sha256": "e627cd791d73384d4c4bbc9ea23c25826dc2e6866686a75f8595ee6c31a9e21c"
+    },
+    {
+      "participant": "Validator",
+      "prompt_sha256": "e627cd791d73384d4c4bbc9ea23c25826dc2e6866686a75f8595ee6c31a9e21c"
+    }
+  ],
+  "fixed_prompt_sha256": "20b9a852c72ec4c240e52fc1db2afd78bca439f365b52465643047bc770d2ce1",
+  "result": {
+    "request_id": "516e02198fe840a58635882d50d1421568ef39338f91ba4e623e46d7ed843893",
+    "disposition": "NEW",
+    "result_status": "COMPLETE"
+  },
+  "no_write_inside_callbacks": true,
+  "validator_prompt_contains_no_leader_candidate": true
+}
