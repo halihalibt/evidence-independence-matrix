@@ -8,7 +8,7 @@ Several reports can repeat one original source. EIM gives collaborators a shared
 
 ## Why GenLayer
 
-ChatGPT can analyze the documents, but one private answer gives collaborators no jointly validated persistent record. A conventional server can implement the algorithm; its operator still controls fetches, interpretation and publication. GenLayer provides native bounded HTTP/model execution, multiple participants validating one candidate, and shared chain state that applications can independently read.
+A private model service can analyze the documents, but one private answer gives collaborators no jointly validated persistent record. A conventional server can implement the algorithm; its operator still controls fetches, interpretation and publication. GenLayer provides native bounded HTTP/model execution, multiple participants validating one candidate, and shared chain state that applications can independently read.
 
 Leader fetches/normalizes/digests all sources and proposes the complete canonical classification. Custom Validator independently fetches and hashes those materials, strictly binds evidence fields and checks **each** proposed relevance/pair label against the rules. Positive relations need grounded verbatim provenance/acquisition anchors. Validator receives no Leader reasoning, is not format-only and does not regenerate enums for exact-token equality. Unsupported semantic fields or digest mismatch disagree; temporary failures cannot become UNKNOWN.
 

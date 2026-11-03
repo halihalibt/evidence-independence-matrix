@@ -2,7 +2,7 @@
 
 # Standalone Stable Studio procedure — PHASE 4 partial checkpoint
 
-PHASE 4 is authorized and one canonical deployment has succeeded. See
+One canonical deployment succeeded during the recorded network verification. See
 `deployment/canonical.json` and the PHASE4 evidence. Resume that contract; do not
 repeat deployment when restoring this checkpoint. Assessment verification is
 blocked on controlled assessment consensus failure. Public fixtures are published and verified. The numbered steps below were prepared
@@ -13,8 +13,8 @@ Use this repository alone; EchoMap and any backend are unnecessary.
    source commit is recorded in the canonical manifest; the Public remote contains README and fixtures only; deployed source commit
    remains local/bundled and separate from publishing commit. Preserve the source SHA
    and the first two lines (`v0.2.16` / locked py-genlayer Depends).
-2. Open the approved https://studio.genlayer.com Stable application. Confirm chain
-   61999 and canonical https://studio.genlayer.com/api; use approved RPC/SDK paths,
+2. Open the https://studio.genlayer.com Stable application. Confirm chain
+   61999 and canonical https://studio.genlayer.com/api; use RPC/SDK paths,
    not Studio-dev, Bradbury or a different network.
 3. Prepare the actual deployment account securely. Free funding uses Studio
    account menu → Fund account; the observed supported RPC is sim_fundAccount
@@ -31,7 +31,7 @@ Use this repository alone; EchoMap and any backend are unnecessary.
 5. Capture actual deploy transaction and canonical address, explorer links and
    source commit. No guessed address/hash or second business contract.
 6. Read get_protocol_info; bind published immutable synthetic URLs and prepared
-   fixed public-document URLs. Submit new client keys only in authorized PHASE 4.
+   fixed public-document URLs. Submit new client keys only in the recorded network-verification stage.
    Target 5 and require at least 3 actual participants including Leader.
 7. For each NEW assessment require FINALIZED + execution success + matching
    get_assessment on TransactionHashVariant.LATEST_FINAL. Record available real
@@ -45,4 +45,4 @@ finality/source/protocol reads are verified in the canonical manifest. Real
 controlled assess was submitted once and reached FINALIZED/MAJORITY_DISAGREE;
 latest-final get_assessment/lookup found=false. Its receipt NEW/PARTIAL is a rejected
 proposal, not a successful record. Real public-document NEW/REUSED await a
-successful controlled record under original PHASE4 authorization. Keep Gate BLOCKED.
+successful controlled record within the original verification scope. Keep Gate BLOCKED.

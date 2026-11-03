@@ -11,7 +11,7 @@ Repeated reports may share one original observation.2–4URLs are not necessaril
 
 ## Why GenLayer / consensus design
 
-A private ChatGPT response or operator-controlled server has no independently validated shared state. GenLayer's bounded native HTTP/model execution allows Leader interpretation to be validated by multiple participants before storing one candidate. Leader independently fetches/normalizes/digests,classifies all relevance/pairs and strictly parses. Custom run_nondet_unsafe Validator independently reacquires evidence,requires exact schema/status/digest/URL/index/order and checks every proposed label under frozen rules. Positive relation acceptance requires internal grounded spans/fact types. No Leader reasoning,no regenerated-equal-token requirement,no convenience equivalence/format-only/overall-score replacement.
+A private model response or operator-controlled server has no independently validated shared state. GenLayer's bounded native HTTP/model execution allows Leader interpretation to be validated by multiple participants before storing one candidate. Leader independently fetches/normalizes/digests,classifies all relevance/pairs and strictly parses. Custom run_nondet_unsafe Validator independently reacquires evidence,requires exact schema/status/digest/URL/index/order and checks every proposed label under frozen rules. Positive relation acceptance requires internal grounded spans/fact types. No Leader reasoning,no regenerated-equal-token requirement,no convenience equivalence/format-only/overall-score replacement.
 
 ## Equivalence / safety / state
 

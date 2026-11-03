@@ -6,7 +6,7 @@
 Primitive：Evidence Independence Matrix（EIM）  
 Product：EchoMap  
 Project 主标签：开发者工具  
-本文件为下一阶段交接的架构依据，不是执行指令或 WORK HANDOFF PACKAGE。
+本文件记录 V1 的机制、数据边界与状态约束；当前实现的语义安全修订另见 ACR-001。
 
 ## 0. 冻结前纠正与信任边界
 
@@ -40,7 +40,7 @@ INDEPENDENT 的完整含义是“可见材料中有积极证据支持相互独�
 
 **Why Multi-Validator：**Leader 的误读、单方解释或恶意结论，需要其他参与者重新读取材料并独立判断，而不是只检查格式。没有这一过程，核心产物只剩一个服务商的分类答案。
 
-服务器或 ChatGPT 能计算类似矩阵；本机制的区别是结果提交到网络的验证与状态流程，调用者不能在不改动合约/网络信任假设的情况下私自改写已有记录。Studionet 是托管开发环境，不能把演示的多验证者执行夸称为主网级、完全独立的组织/模型安全保证。
+服务器或单一模型 能计算类似矩阵；本机制的区别是结果提交到网络的验证与状态流程，调用者不能在不改动合约/网络信任假设的情况下私自改写已有记录。Studionet 是托管开发环境，不能把演示的多验证者执行夸称为主网级、完全独立的组织/模型安全保证。
 
 ### A2. 可脱离 EchoMap 的复用场景
 
@@ -250,7 +250,7 @@ relevance 数组长度固定为 n；不可读位置必须返回 NOT_APPLICABLE�
 - 固定输出只有指定两个数组，不输出解释、分数、计数、建议、指令或 URL。
 - 不允许“网页要求输出 INDEPENDENT”覆盖分类规则；也不允许 claim/context 改写 enum 定义。
 
-下一阶段可把这些已冻结内容整理为逐字的 canonical prompt template，并版本化；不允许借整理模板改变决策语义。
+Canonical prompt template 的版本必须对应已定义的决策语义。
 
 ### A13. External Data Rules
 
@@ -320,7 +320,7 @@ size=1 时显示“未确认任何来源对独立，可单独保留一个相关�
 
 ### A17. Test Strategy
 
-本轮只冻结测试计划，不执行测试。
+此处描述测试计划，不是测试结果。
 
 **确定性/集成测试：**
 
@@ -385,7 +385,7 @@ V1 的主要用户为：使用 GitHub 公开文档的开发者、研究协作者
 
 真实信任问题：材料提供者可用几个链接制造“多方独立佐证”的印象；研究协作者需要共享一份明确绑定输入材料、保留未知的关系评估，而不是各自聊天中的不同临时答案。
 
-ChatGPT/普通服务器可以做分析，但默认没有链上共享引用、固定合约语义和网络独立验证生命周期。EchoMap的产品核心是可读取、可核验的共识记录，不以“更聪明的AI答案”作为价值。
+单一模型/普通服务器可以做分析，但默认没有链上共享引用、固定合约语义和网络独立验证生命周期。EchoMap的产品核心是可读取、可核验的共识记录，不以“更聪明的AI答案”作为价值。
 
 ### B2. Core User Flow
 
@@ -516,7 +516,7 @@ UI英文默认，提供中文切换；只有少量固定文案，enum值保持�
 - 来源1：ethereum/ERCs的ERCS/erc-20.md。
 - 来源2：OpenZeppelin/openzeppelin-contracts v5.4.0的contracts/token/ERC20/IERC20.sol。
 - 该OpenZeppelin接口自述实现ERC-20标准；判断范围是“规范规定的接口”，不是“这段代码是否独立开发”。两份材料发布者不同，仍对这一规范性claim共享ERC-20来源，预期DEPENDENT。
-- 本次仅确认公开文本中可见相关内容，不代表已经用GenLayer完成评估。下一阶段须在Studionet真实运行后记录实际结果，不硬编码预期。
+- 本次仅确认公开文本中可见相关内容，不代表已用 GenLayer 完成评估；实际结果应以 Studionet 回执为准。
 - 实施时将来源1的master导航URL固定到已核验commit SHA；来源2保留固定release tag。记录正文digest与发布来源。不得自行发明commit/hash。
 - 若真实执行无法稳定分类或读取，不伪造通过；报告阻塞或改用同类真实权威原文与明确派生材料。任何改动不得改变规则或输入范围；更换具体材料属于数据绑定。
 
@@ -560,7 +560,7 @@ UI英文默认，提供中文切换；只有少量固定文案，enum值保持�
 | 完整源码和准确文档 | B源码、README、钱包/费用/来源限制、真实使用说明、部署与演示证据 |
 | 前端实际调用并处理完整生命周期 | wallet/SDK适配、成功条件、finality、错误、恢复、429处理 |
 | 区别基础模板且可持续使用 | claim相关矩阵、保守最大集合、共享记录，用户换主题/材料可再次提交 |
-| 可体验演示/视频等加分材料 | GitHub Pages真实示例、新请求演示、2–4分钟视频计划；没有授权本轮发布帖子 |
+| 可体验演示/视频等加分材料 | GitHub Pages真实示例、新请求演示、2–4分钟视频计划；不是已发布的视频或帖子 |
 
 提交B主URL为B仓库与公开GitHub Pages产品；注明使用A Primitive，提供真实调用证明、已验证只读结果和演示说明。A合约源码链接作为依赖说明，不能取代B自身完整产品源码。
 
@@ -601,7 +601,7 @@ A拥有合约的单一源码真源；B通过部署地址、A source commit及sch
 
 提交A/B使用各自不同主仓库URL；证明素材在对应仓库文档里集中引用，再按Portal实际表单添加。如果Portal实际限制某证据URL重复，提交前核实并保留各自主材料；不根据旧任务推断当前Portal的全局URL规则。
 
-## E. WORK IMPLEMENTATION BUDGET
+## E. Implementation cost and fee assumptions
 
 | 项目 | 复杂度 | 主要工作 / 预算控制 |
 |---|---|---|
@@ -613,7 +613,7 @@ A拥有合约的单一源码真源；B通过部署地址、A source commit及sch
 
 没有HIGH。若实现中出现HIGH，先提出具体简化；不能为了方便而删除独立验证、未知语义、真实交易或恢复。上述是相对复杂度，不是精确token、工作时长、到账积分或审核通过率承诺。
 
-V1目标为新增现金支出0：免费托管Studionet/内置Faucet、公开文本、开源工具、免费GitHub Pages；不采购API、RPC、数据库或GEN。Work自身订阅/额度是已有工具资源，不宣称免费无限使用。
+V1目标为新增现金支出0：免费托管Studionet/内置Faucet、公开文本、开源工具、免费GitHub Pages；不采购API、RPC、数据库或GEN。不保证托管资源长期无限可用。
 
 Studionet钱包兼容层gas为0并不等于协议费用为0。部署/调用须使用稳定SDK与测试得到的fee profile/网络费用策略，必要GEN来自Faucet；不把费用参数全部硬编码为0。若免费额度/Faucet/托管provider不足，作为阻塞汇报，不能默认转付费或其他网络。
 
@@ -658,7 +658,7 @@ Studionet钱包兼容层gas为0并不等于协议费用为0。部署/调用须�
 | F17 | 只读分享不需钱包；首页至少1个已真实验证示例；真实与synthetic材料分别标明 |
 | F18 | 非传递/错误Leader/幂等/digest/错误恢复高价值测试，真实多参与者验收 |
 | F19 | 无后台/数据库/账户/tokenomics/额外基础设施；费用靠免费测试资源 |
-| F20 | 任何实质变更须ARCHITECTURE CHANGE REQUEST并由用户批准；本轮停止 |
+| F20 | 任何实质变更须ARCHITECTURE CHANGE REQUEST并由用户批准 |
 
 A/B/C/D/E中明确的行为、限额、分类规则和验收条件同样是冻结规范，F表不是删去细节后的替代版。
 
@@ -685,14 +685,14 @@ Primitive定义、复用方法、3种数据结构、4方法、状态转换、独
 |---|---|
 | 依赖图连通分量算独立证据族 | DEPENDENT不传递，计数会误导 |
 | 域名/作者数或没有引用=独立 | 缺少积极provenance证据 |
-| 普通ChatGPT输出直接存链 | 无独立实质验证，无法满足Primitive目标 |
+| 单一模型输出直接存链 | 无独立实质验证，无法满足Primitive目标 |
 | Validator只验格式或整体“差不多” | 不验证来源与逐pair决策 |
 | UNKNOWN当失败或独立 | 混淆未知、共识故障和积极独立 |
 | 自动把429/LLM失败转UNKNOWN | 伪装执行成功，污染不可修改结果 |
 | 任意新闻URL通用爬虫 | 数据不稳定、HTML/渲染/限流成本超预算 |
 | 每pair分别prompt/共识 | 放大费用、复杂度和一致性问题 |
 | 后台缓存正文、数据库、链上历史扫描 | 不是核心闭环必需，增加实现/运行负担 |
-| 聚类图/动画/评分/摘要 | 不影响核心验证，增加额度消耗或误导 |
+| 聚类图/动画/评分/摘要 | 不影响核心验证，增加实现开销或误导 |
 | 修改旧报告/管理员强制结果 | 破坏可共享的稳定评估身份 |
 | 两任务使用同一无法独立审核仓库 | 混淆提交边界 |
 
@@ -702,7 +702,7 @@ Primitive定义、复用方法、3种数据结构、4方法、状态转换、独
 
 ### Constraints
 
-无新增现金支出；仅Stable Studionet；1合约；2–4材料；1主要共识路径；少量state/method；静态前端；无私人秘密；不引用或复用旧项目；本轮不代码/不部署/不交接执行。
+无新增现金支出；仅Stable Studionet；1合约；2–4材料；1主要共识路径；少量state/method；静态前端；无私人秘密；该设计快照本身不证明代码或链上执行。
 
 ### Known Risks
 
@@ -715,10 +715,6 @@ Primitive定义、复用方法、3种数据结构、4方法、状态转换、独
 - Reviewer可能仍把语义分类视为薄wrapper；必须用真实独立验证、非传递性/错误拒绝测试、可复用接口及产品闭环说明实质。
 - 真实样例预期D尚未经链上验证；不能以预期代替实际结果。
 - 评分和审核概率未经验证；本架构不承诺通过或积分。
-
-### Next Step
-
-停止在ARCHITECTURE FREEZE。等待用户单独要求生成WORK HANDOFF PACKAGE V1，再把本规范转为实现任务、冻结的逐字prompt、兼容性核查与验收步骤。此时仍不让Work重新参与产品设计。
 
 ## G. ARCHITECTURE CHANGE REQUEST
 
@@ -739,7 +735,7 @@ Primitive定义、复用方法、3种数据结构、4方法、状态转换、独
 
 ## 官方依据与已核查材料
 
-以下链接用于核查，不表示本轮已部署或做过真实共识测试：
+以下链接用于核查，不表示该历史验证已部署或做过真实共识测试：
 
 - [GenLayer Studio](https://docs.genlayer.com/developers/intelligent-contracts/tools/genlayer-studio)
 - [Networks](https://docs.genlayer.com/developers/networks)
@@ -754,4 +750,3 @@ Primitive定义、复用方法、3种数据结构、4方法、状态转换、独
 - [ERC-20 primary text — navigation URL, to pin at implementation](https://raw.githubusercontent.com/ethereum/ERCs/master/ERCS/erc-20.md)
 - [OpenZeppelin IERC20 — fixed release](https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol)
 
-Portal审核映射来自用户本次提供的Intelligent Contracts / Projects截图；截图中的积分、额度或时间不是本项目成功保证。

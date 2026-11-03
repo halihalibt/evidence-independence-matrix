@@ -9,7 +9,7 @@ No fixture is a real deployed Assessment. Tests never fetch these URLs live.
 `b.txt` explicitly derives its claim from A; `c.txt` provides a separate
 first-hand instrument reading; `d.txt` has unclear origin. Every document starts
 with SYNTHETIC DEMO. Claim and expected matrix are frozen in `synthetic/manifest.json`.
-The illustrative host is NOT PUBLISHED. In authorized PHASE 4 publish the short
+The illustrative host is NOT PUBLISHED. In the recorded network-verification stage publish the short
 fixed-version `.txt` assets once, bind verified allowed URLs, normalize/sort them
 and map A/B/C/D labels to those indices; do not assume input label order.
 Keep published versions immutable. No second contract or frontend is needed.

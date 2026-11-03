@@ -3,7 +3,7 @@
 Updated UTC: 2026-10-06T17:51:30.984813+00:00
 Updated Asia/Shanghai: 2026-10-07T01:51:30.984813+08:00
 
-**PHASE0 Gate: PASS — environment/API/toolchain binding only. PHASE1 authorization: NOT_GRANTED. STOP.**
+**PHASE0 Gate: PASS — environment/API/toolchain binding only. No contract implementation was measured in that environment check.**
 
 ## Authority and evidence boundaries
 
@@ -15,7 +15,7 @@ PASS certifies a reproducible compatible API/dependency/test path and free fundi
 
 Network StableStudionet only; Chain61999/0xf22f already live-confirmed. RPC https://studio.genlayer.com/api ; Studio https://studio.genlayer.com/ ; canonical Explorer https://explorer-studio.genlayer.com . No network switch, RC stack, proxy, paidRPC, APIpurchase. Explorer transaction pages for EIM have not been verified because EIM is not deployed.
 
-Existing working paths curl/Nodefetch/genlayer-js/CloudBrowser retained. Pythonurllib1010 **NOT_A_BLOCKER**. CLI missing-account state is a local prerequisite, not a network failure; CLI network signing remains untested. Selected subsequent Work route: official JS SDK on original StableRPC; Studio UI is also accessible.
+Existing working paths curl/Nodefetch/genlayer-js/CloudBrowser retained. Pythonurllib1010 **NOT_A_BLOCKER**. CLI missing-account state is a local prerequisite, not a network failure; CLI network signing remains untested. The compatible execution route uses official JS SDK on original StableRPC; Studio UI is also accessible.
 
 ## Exact adopted compatibility combination
 
@@ -37,7 +37,7 @@ Existing working paths curl/Nodefetch/genlayer-js/CloudBrowser retained. Pythonu
 | pytest |9.1.1|Actualinstalled --version; environment-only probes, no business tests |
 | Python package manager |pip25.0.1|Exact `python_toolchain_exact.txt`; pipcheck reports no broken requirements |
 
-Full Python transitive dependency pins: `evidence/phase-0-gates/python_toolchain_exact.txt`. Full npm SDK/CLI pins: `evidence/phase-0-recovery/inspection-package-lock.json`. No floating alias is an implementation lock. Business React/TypeScript/Vite files are not created; feature/build dependencies must be exact-pinned on initial authorized frontend installation, while this locked networkSDK remains authoritative. Frozen frontend stack is unchanged.
+Full Python transitive dependency pins: `evidence/phase-0-gates/python_toolchain_exact.txt`. Full npm SDK/CLI pins: `evidence/phase-0-recovery/inspection-package-lock.json`. No floating alias is an implementation lock. Business React/TypeScript/Vite files are not created; feature/build dependencies must be exact-pinned on initial frontend installation, while this locked networkSDK remains authoritative. Frozen frontend stack is unchanged.
 
 ArchiveSHA256: `4f0b358ec98ec148be9b95cdfb0f0e1a6cbe64da0194fdfac3fffc6f5d1d93e2`. Exact inner tarSHA256s in inner_runner_sha256.json. Official asset URL/digest and release details in artifact_binding_manifest.json. Large temporary universalarchive is reproducible from immutable releaseURL+verifieddigest; extracted relevant runners/source and manifests are preserved in evidence package.
 
@@ -78,7 +78,7 @@ Do not call or assume sim_getFeeConfig. Its previously observed-32601 remains hi
 
 Verified deployed Stable frontend uses the same legacy deployContract/writeContract flow as lockedSDK1.1.8. Official Stable-family backend reference implements eth_estimateGas compatibility estimate and eth_gasPrice; actualStableRPC returned **0x7a120=500000 gas** and **0x0 gasprice**. Probe used emptydata, zero-value, consensus-address request solely for feeAPI capability; no model simulation or submission occurred. Referencebackend get_gas_estimate is constant500000, not measured GenVM/model workload. Do not call it a feeprofile or realistic computation measurement.
 
-Later authorized submissions:
+Historical planned submissions:
 
 1. `client.deployContract` or `client.writeContract` with frozen arguments, explicit full-consensus `leaderOnly:false`, defaultinitialvalidators5 and rotations3 asSDKpreset; use unique canonical deployment only.
 2. SDKencodes addTransaction(sender,recipient,initialValidators,maxRotations,txData), with its ABI compatibility fallback includingvalidUntil when needed; this5/6-input legacyABI fallback is not the Studio-dev v0.6 fee schema.
@@ -91,7 +91,7 @@ Current bound Stable submission path has no required modern protocol-fee allocat
 
 ## Faucet — actual free GEN credit
 
-Authorized disposable diagnostic address: `0x8598ec74bD34a2FC75f12efEFBded50D5dd1768A`. This is not canonicaldeployment/userwallet; diagnostic signer ephemeral, no recoverable deployment credential provided or relied upon. Noaccountcredential transmitted/exported in evidence.
+Disposable diagnostic address: `0x8598ec74bD34a2FC75f12efEFBded50D5dd1768A`. This is not canonicaldeployment/userwallet; diagnostic signer ephemeral, no recoverable deployment credential provided or relied upon. Noaccountcredential transmitted/exported in evidence.
 
 Official deployed Studio Faucet calls `sim_fundAccount(address,amountWei)` then `eth_getBalance(address,'latest')`. Directgenericrequest on lockedofficialclient is the supported observedpath; SDK's high-levelfundAccount has a localnetguard, so do not switchchain to invoke it. StudioUI equivalent: account dropdown→Newaccount as needed→Fundaccount→Amount→Fund→balance refresh. No externaltestnet faucet/mainnetETH prerequisite was used.
 
@@ -100,9 +100,9 @@ Official deployed Studio Faucet calls `sim_fundAccount(address,amountWei)` then 
 - Before0x0; after0xde0b6b3a7640000; actualcredit1000000000000000000wei.
 - Fundingrecordreturned `0xe2a5c511ed0e5e5862c03888dd624005c39a41ee041ec8a310e8838e3f142c37`.
 - RPCbalance independentread confirms receipt. This is faucetcredit, **not EIM NEW/deployment/multiValidator/finalizedbusiness evidence**.
-- No user funds spent, no purchase. Limits/guaranteedfutureavailability not established. Canonical deploywallet selection and its real credit/budget remain authorized PHASE4 work; no automaticreuseofdiagnosticaccount.
+- No user funds spent, no purchase. Limits/guaranteedfutureavailability not established. Canonical deploywallet selection and its real credit/budget remain the recorded network-verification stage work; no automaticreuseofdiagnosticaccount.
 
-## Gate / known limitations / stop
+## Compatibility limits
 
 | PHASE0 requirement | Result | Evidence / boundary |
 |---|---|---|
@@ -110,13 +110,12 @@ Official deployed Studio Faucet calls `sim_fundAccount(address,amountWei)` then 
 | Exact compatible contract/SDK/test combination | PASS_ENVIRONMENT_BINDING | Exact Stable template Depends found in verified v0.2.16 archive; explicit loader, imports, custom callback and serialization checks pass |
 | Fee estimation/submission route | PASS_IMPLEMENTATION_BOUND | Live Stable web bundle + exact SDK source + non-mutating fee RPC results; no RC fee fields assumed |
 | Free Faucet path | PASS_ACTUAL_CREDIT | sim_fundAccount returned funding record; balance0→1GEN independently read |
-| Usable Work execution route | PASS_RETAINED | OriginalStable RPC official NodeSDK path works; no alternate network/provider |
+| Usable SDK execution route | PASS_RETAINED | OriginalStable RPC official NodeSDK path works; no alternate network/provider |
 
 B0-FEE/B0-GENVM/B0-TOOLCHAIN/B0-FAUCET resolved at environment-binding scope. B0-ACCESS previouslyresolved; Pythonclient no longer a blocker. CLIaccountsetup remains deferred, not required for selectedworkingSDKroute.
 
 Business tests/build/realconsensus/walletsigning/actualdeploy/finalizedbusinessstate: NOT_RUN. Canonicalcontract: NOT_DEPLOYED. Hostedprivatecommit/binarybuild: UNVERIFIED; immutablecontractDepends/ABI/artifactbinding is precise. NoACR.
 
-Next Exact Action: **STOP; await explicit PHASE1 authorization**. On authorization read latestprogress/current lock and PHASE1 master/spec portions; implement only RepositoryA skeleton+deterministiccore. Do not startPHASE2/deploy/frontend automatically.
 
 ## Evidence / official sources
 

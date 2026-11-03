@@ -1,8 +1,8 @@
 # EIM-V1-STUDIO — implementation protocol binding
 
-The approved `ARCHITECTURE_FREEZE_V1.md` is the normative source. SHA-256:
+The `ARCHITECTURE_FREEZE_V1.md` is the normative source. SHA-256:
 `c2c8de7785c528b24eea126d58a74576d7e39746021560b448cfd358c65a2687`.
-The repository preserves that source unchanged. Approved ACR-001 overrides only
+The repository preserves that source unchanged. ACR-001 overrides only
 Validator reclassification/equality requirements; see ARCHITECTURE_CHANGE_REQUEST_001.md.
 
 ## Deterministic inputs and identifiers
@@ -123,7 +123,7 @@ never become UNKNOWN success. Real finality/participants for canonical examples 
 `gl.vm.run_nondet_unsafe(leader,validator)` is the only consensus path.
 Both callbacks capture only `(claim,context,tuple(urls))`; no persistent object,
 state or Leader answer is captured by classification. Leader executes
-`classify_snapshot`. Under approved ACR-001, Validator accepts only the SDK's
+`classify_snapshot`. Under ACR-001, Validator accepts only the SDK's
 success `Return` wrapper, validates the Leader schema, independently refetches,
 normalizes and hashes every source. URL/index/order/read_status/content_digest
 remain strictly bound. One raw-text prompt independently validates every proposed
@@ -162,6 +162,6 @@ network rounds/threshold/participants and finalized result proofs are deferred.
 
 ## Current verification boundary
 
-The final production source hash and deployment-source commit are documented in ../DEPLOYMENT_MANIFEST_STUDIONET.md. Approved ACR-001 and its evidence-anchor safety tightening changed Validator validation, not the original Leader definitions, state or methods.277 local tests passed with scripted external boundaries; tests inject faults only in the harness. No production debug method/mock path was added.
+The final production source hash and deployment-source commit are documented in ../DEPLOYMENT_MANIFEST_STUDIONET.md. ACR-001 and its evidence-anchor safety tightening changed Validator validation, not the original Leader definitions, state or methods.277 local tests passed with scripted external boundaries; tests inject faults only in the harness. No production debug method/mock path was added.
 
 Canonical deployment, synthetic/public-document NEW, REUSED and finalized reads have real Stable Studionet evidence. The successful controlled matrix is an actual stored result, distinct from a local fixture expectation. Other real requests have disagreed and stored no Assessment. Finite positive examples do not prove universal semantic correctness or liveness. Real-model negative controls remain NOT REAL-NETWORK VERIFIED. The original Phase3/4 history remains preserved separately.

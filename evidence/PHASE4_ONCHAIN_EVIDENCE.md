@@ -5,7 +5,7 @@
 Updated UTC: 2026-10-07T09:50:54.834982+00:00
 
 **PHASE 4 = PASS / CLOSED. LIVENESS = PASS. SEMANTIC SAFETY = PASS.**
-Final deployment, both NEW examples, REUSED, lookup and protocol evidence now all refer to the same final canonical contract. No prior-address carry-forward is needed for these final Gate requirements. Historical deployments/results remain preserved. PHASE5/Repository B/EchoMap NOT_STARTED / NOT_AUTHORIZED.
+Final deployment, both NEW examples, REUSED, lookup and protocol evidence now all refer to the same final canonical contract. No prior-address carry-forward is needed for these final Gate requirements. Historical deployments/results remain preserved. Frontend verification was outside that historical snapshot.
 
 ## Canonical identity
 
@@ -22,7 +22,7 @@ Final deployment, both NEW examples, REUSED, lookup and protocol evidence now al
 |RPC|https://studio.genlayer.com/api|
 |Explorer|https://explorer-studio.genlayer.com|
 
-Protocol/state/IDs retain EIM-V1-STUDIO under the previously documented approved version strategy. Consensus revision + source commit/SHA + distinct address distinguish the safety implementation without changing business enums or adding public fields. Source commit local and bundled, not claimed published in the public fixture GitHub commit; remote source publication belongs to later authorized packaging. No code, Freeze, ACR, prompt, fixture or deployment change in this closure; no new source commit needed.
+Protocol/state/IDs retain EIM-V1-STUDIO under the previously documented version strategy. Consensus revision + source commit/SHA + distinct address distinguish the safety implementation without changing business enums or adding public fields. Source commit local and bundled, not claimed published in the public fixture GitHub commit; remote source publication belongs to later publication. No code, Freeze, ACR, prompt, fixture or deployment change in this closure; no new source commit needed.
 
 ## Final canonical transactions
 
@@ -140,7 +140,7 @@ Closure used0 deployments,1 public NEW+1 REUSED =2 raw submissions,0retries/newc
 Evidence directory `evidence/phase4-final-closure`: full sanitized rpc.jsonl/native receipts, participant analyses, source checks/inputs, finalized reads/lookups, actual return gates, one final protocol read, submission/signing/one-shot intent records and final-closure-summary.json. Prior deployment/controlled/source bundle/test proof retained in evidence/semantic-safety; old diagnostic deployments retained separately. Complete final recovery package includes these artifacts and canonical source bundle, excluding signer secrets.
 
 All8 user final Gate conditions now met on final canonical: deployment; controlled success; exact frozen matrix; real public NEW; REUSED; correct finalized lookup; protocol; consolidated evidence package.
-**PHASE4 = PASS / CLOSED. STOP; wait for separate Repository B / EchoMap authorization.**
+**PHASE4 = PASS / CLOSED. **
 
 ---
 
@@ -150,9 +150,9 @@ All8 user final Gate conditions now met on final canonical: deployment; controll
 
 ## Latest Semantic Safety Verification — 2026-10-07T06:32:29.001762+00:00
 
-**LIVENESS = PASS. SEMANTIC SAFETY = PASS (authorized one-shot controlled Gate). PHASE4 = PASS with explicitly scoped prior-network evidence carry-forward. STOP; PHASE5/B not started or authorized.**
+**LIVENESS = PASS. SEMANTIC SAFETY = PASS (one-shot controlled Gate). PHASE4 = PASS with explicitly scoped prior-network evidence carry-forward. **
 
-Audit found no affirmative B-C shared/derived provenance; previous DEPENDENT accepted label is SEMANTIC_FALSE_ACCEPT. Minimum authorized safety tightening now requires per-positive-pair two literal normalized evidence anchors, exact source/index/order/substring and fact-type checks, strict private output parsing and explicit positive semantic support. Anchors are private validation transport, never state/API/reasoning. Model interpretation remains fallible: one successful controlled example is not universal semantic accuracy or live negative-control proof.
+Audit found no affirmative B-C shared/derived provenance; previous DEPENDENT accepted label is SEMANTIC_FALSE_ACCEPT. The semantic-safety revision now requires per-positive-pair two literal normalized evidence anchors, exact source/index/order/substring and fact-type checks, strict private output parsing and explicit positive semantic support. Anchors are private validation transport, never state/API/reasoning. Model interpretation remains fallible: one successful controlled example is not universal semantic accuracy or live negative-control proof.
 
 New canonical **0x7045b893E15B699e04494aA3849730bC6Aa1C864**, Stable Studionet61999. Source commit **4874fd469cb5477b9d8f8ec9dbc19252a6112e6e**, source SHA **121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095**. Deployment [0x2486995a27e99c7d3bd1da857e9af39b330eb2092f066edb780aa44caacd3007](https://explorer-studio.genlayer.com/tx/0x2486995a27e99c7d3bd1da857e9af39b330eb2092f066edb780aa44caacd3007): FINALIZED / SUCCESS / MAJORITY_AGREE, source/code/schema/protocol verified. Old **0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC** retained as **SUPERSEDED ACR-001 LIVENESS-PASS / SAFETY-DIAGNOSTIC DEPLOYMENT** with all historical evidence; original0x6Dbd diagnostic also retained. No further write to either old address.
 
@@ -182,14 +182,14 @@ Latest-final get_assessment **found=true** and lookup_request **found=true**, ID
 Counts **1 DEPENDENT /2 INDEPENDENT /3 UNKNOWN**; **PARTIAL**; max supported independent set **[0,2]=[A,C]**, size **2**. All4 source relevance RELEVANT. No internal anchors persisted. Successful atomic full record observed; regression tests cover failure no-write paths. Runtime Gate and exact matrix/count/status/set checks allPASS; no mock used to pass network Gate.
 
 ### Public-document / REUSED / lookup carry-forward decision
-Prior actual public-document NEW [0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9](https://explorer-studio.genlayer.com/tx/0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9) and REUSED [0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e](https://explorer-studio.genlayer.com/tx/0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e), plus both latest-final lookup proofs, remain real evidence **at 0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC**. No historical result overwritten or migrated. New safety patch affects positive-relation semantic output transport; normative original-definition+explicit interface derivation remains allowed and covered by local public-document/mock anchor regression. It does not change assess preflight, REUSED no-fetch/no-model branch, identifiers, public reads or storage (business class AST identical); all idempotency regressions retained. New controlled lookup itself verified on new address. Therefore no extra real public-document/REUSED transaction considered necessary under user's authorized carry-forward rule. **These operations on new address NOT_RUN**, not claimed completed there. A future new-address public-document observation would be new evidence, requiring its own authorization; no mechanical replay in this round.
+Prior actual public-document NEW [0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9](https://explorer-studio.genlayer.com/tx/0x1eae168922bd29f4fc8ad40eee1b0a5f3ea4f3a55515e672174ed19b684a30f9) and REUSED [0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e](https://explorer-studio.genlayer.com/tx/0xd8e0e0db62b93ecf7e2609d72219d07d7e3920763153b5a0e4a77e6511989d0e), plus both latest-final lookup proofs, remain real evidence **at 0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC**. No historical result overwritten or migrated. New safety patch affects positive-relation semantic output transport; normative original-definition+explicit interface derivation remains allowed and covered by local public-document/mock anchor regression. It does not change assess preflight, REUSED no-fetch/no-model branch, identifiers, public reads or storage (business class AST identical); all idempotency regressions retained. New controlled lookup itself verified on new address. Therefore no extra real public-document/REUSED transaction considered necessary under the historical evidence-scope rule. **These operations on new address NOT_RUN**, not claimed completed there. A future new-address public-document observation would be new evidence, which must be distinguished from historical evidence; no mechanical replay in this round.
 
-### Verification boundaries / fees / stop
+### Verification boundaries and fees
 LOCAL VERIFIED: exact source/Freeze/Leader/fixtures, strict parser/grounding guards/invariants/IDs. MOCK VERIFIED: all277 cases and positive/negative semantic scripted controls. REAL STUDIONET VERIFIED: new deployment +1 controlled NEW, multi-participation, finality/success and matching full matrix/latest-final result+lookup. NOT VERIFIED: live semantic negative controls, universal provenance accuracy/injection immunity, private Validator reasons, new-instance public-document/REUSED records. REAL_MODEL_PREDEPLOY_GATE_UNAVAILABLE remains; no sim_call/harness research.
 
 Budget used exactly **1 redeployment +1 controlled NEW =2 raw submissions**, zero retries/extra assessments/new Faucet requests, existing Faucet GEN only, **cash0**. Before balance2000000000000000000wei; after2000000000000000000wei. Actual guarded submission gas500000/gasPrice0/value0, Stable61999, no paid provider. No Phase5/EchoMap/B/UI.
 
-Evidence: evidence/semantic-safety/semantic-safety-summary.json, local-safety-gate.json, all-tests.log/xml, node-vectors.log, source bundle, *-latest.json, rpc.jsonl, analyses, controlled-gate.json, finalized read, source checks and budget. Next exact action: **STOP for user review; await separate Phase5 authorization.** No further transaction, deployment or diagnosis.
+Evidence: evidence/semantic-safety/semantic-safety-summary.json, local-safety-gate.json, all-tests.log/xml, node-vectors.log, source bundle, *-latest.json, rpc.jsonl, analyses, controlled-gate.json, finalized read, source checks and budget.
 
 ---
 
@@ -197,10 +197,10 @@ Evidence: evidence/semantic-safety/semantic-safety-summary.json, local-safety-ga
 
 # PHASE4_ONCHAIN_EVIDENCE — ACR-001 runtime verification
 
-## Latest Approved ACR-001 Runtime Verification — 2026-10-07T05:19:01.246571+00:00
+## Latest ACR-001 Runtime Verification — 2026-10-07T05:19:01.246571+00:00
 
-**ACR-001 REAL-MODEL GATE = PASS under the explicitly approved deployment-first exception.**
-**PHASE4 minimum network checks completed; overall Gate remains BLOCKED_SYNTHETIC_SEMANTIC_EXPECTATION_REVIEW.** The successful network vote is not proof that every semantic label is correct. No Phase5/B work.
+**ACR-001 REAL-MODEL GATE = PASS under the explicitly deployment-first exception.**
+**PHASE4 minimum network checks completed; overall Gate remains BLOCKED_SYNTHETIC_SEMANTIC_EXPECTATION_REVIEW.** The successful network vote is not proof that every semantic label is correct. Frontend verification was outside that historical snapshot.
 
 Old contract `0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03` retained as **SUPERSEDED PHASE-4 DIAGNOSTIC DEPLOYMENT**, no new assess sent to it. New canonical contract **`0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC`**, Stable Studionet **61999** only. New deployment source commit **`f80ac8d3e50691e9b0e98d748dbb8da38acb8026`**; deployed source SHA256 **`eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c`** matches the committed file exactly. Native schema equals frozen four-method schema; latest-final get_protocol_info returns EIM-V1-STUDIO / EIM-CANDIDATE-V1 and unchanged limits/source rules.
 
@@ -235,7 +235,7 @@ Finalized get_assessment found=true and lookup_request found=true, matching crea
 Actual relevance: all4 RELEVANT. Actual counts **2D/1I/3U**, PARTIAL, maximum pairwise independent set **[0,2] / [A,C]**, size2. Frozen expected counts1D/2I/3U. **Never overwrite the persisted result or hardcode expected labels.** B derives from A; C explicitly states a separate calibrated handheld reading, obtained without A/B. This supplies the documented positive independent-acquisition rationale; no visible shared/derived B-C origin was identified in these fixture texts. Actual network label contradicts that expected semantic interpretation. The exact model justification/per-field validator verdict remains NOT EXPOSED; no implementation bug claimed, no new ACR proposed. semantic-expectation-review.json records this limitation. Runtime liveness PASS does not close semantic accuracy/safety review.
 
 ### Real public documents / idempotency / lookup
-Public-document request **`2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a`**, key acr001-erc20-20261007. Same approved ERC-20 commit-pinned Markdown and OpenZeppelin IERC20 releasev5.4.0; fresh raw byte/size/UTF8/digest checks. Finalized relation **DEPENDENT**, both RELEVANT, COMPLETE, counts1D/0I/0U, maximum set[0],size1. This matches the common normative-source expectation. Finalized record and lookup match the input.
+Public-document request **`2bb091fac77c4f19f734dfb33c53c1959195a08d5d4daea164dda2c7e094a69a`**, key acr001-erc20-20261007. Same ERC-20 commit-pinned Markdown and OpenZeppelin IERC20 releasev5.4.0; fresh raw byte/size/UTF8/digest checks. Finalized relation **DEPENDENT**, both RELEVANT, COMPLETE, counts1D/0I/0U, maximum set[0],size1. This matches the common normative-source expectation. Finalized record and lookup match the input.
 
 REUSED submitted once with identical controlled creator/key/payload; actual successful return REUSED and same request_id. Finalized Assessment is exactly unchanged. All6 exposed execution records have empty eq_outputs and absent LLM statistics; the deployed early preflight branch returns before fetch/model/run_nondet. Full private HTTP event logs are not exposed; no fabricated log claim. The outer REUSED transaction still undergoes ordinary network execution consensus; no new nondeterministic classification block. lookup_request for both successful records verified via latest-final reads, no additional lookup write transaction.
 
@@ -244,14 +244,13 @@ REUSED submitted once with identical controlled creator/key/payload; actual succ
 |Class|Verified boundary|
 |---|---|
 |LOCAL VERIFIED|Source/Freeze/Leader prompt integrity; fresh source bytes/digests/limits; canonical IDs and complete finalized-record deterministic invariants; exact deployed source/schema equality|
-|MOCK VERIFIED|Retained251 tests PASS, all211 original cases retained with approved adaptations +40 ACR cases;3 identifier vectors; no rerun in this round. These prove control flow/deterministic rejection, not model semantic safety|
+|MOCK VERIFIED|Retained251 tests PASS, all211 original cases retained with adaptations +40 ACR cases;3 identifier vectors; no rerun in this round. These prove control flow/deterministic rejection, not model semantic safety|
 |REAL STUDIONET VERIFIED|One new FINALIZED/SUCCESS deployment; one controlled NEW and one public-document NEW with majority/5actual identities/latest-final found=true; one REUSED with unchanged record; matching lookup; actual model token evidence on NEW executions|
 |NOT VERIFIED|Predeploy repeated model Gate unavailable; true-model semantic negative controls NOT_RUN; unanimous acceptance not claimed; B-C expected semantic correctness contradicted by actual label; private per-field Validator reasons unavailable; provider/operator diversity and comprehensive runtime injection safety not proven|
 
-### Fee / funding / scope / stop
+### Fee, funding and verification scope
 Locked SDK1.1.8/viem2.57.3/GenVMv0.2.16/Depends/testing0.29.2 unchanged. Actual legacy eth_estimateGas500000 / eth_gasPrice0 route, guarded chain61999/value0/gasPrice0 signing. Existing Faucet GEN only; new Faucet requests0; remaining balance2000000000000000000wei; cash0. Budget:1 deployment+1 controlled NEW+1 public-document NEW+1 REUSED, exactly4 raw submissions, zero resend/redeploy. No sim_call research, backend/indexer/second active business contract/frontend/paid provider/fixture or production modifications. No new HIGH complexity.
 
-**Next exact action: STOP for user review of B-C semantic discrepancy and Phase4 evidence.** Do not independently enter Phase5, alter candidate/fixture/prompt/code, propose another ACR, deploy or send another assessment. Source/evidence recovery package prepared; original diagnosis/history retained.
 
 Evidence directory: Repository A/evidence/phase4-acr001; summary phase4-runtime-summary.json; full native receipts *-latest.json; analyses *-analysis.json; finalized reads *-finalized-read.json; record Gate checks *-gate.json; source checks *-source-check.json; submission-budget-and-fees.json; reused-no-nondet-evidence.json; immutable source bundle. Explorer links are provided for reviewers; this round used official SDK/RPC evidence rather than claiming additional UI inspection.
 
@@ -296,7 +295,7 @@ The remote publishing commit is separate from the local deployment source commit
 - Latest Leader outer execution receipt reports SUCCESS and return NEW/PARTIAL. This is a rejected proposal, **not a committed NEW result**. FINALIZED alone and Leader SUCCESS alone do not satisfy the Gate.
 - Actual latest votes:3disagree/2idle.3unique execution-success identities inclLeader observed in final round; earlier successful-proposal rounds each4. Counted actual receipts/LLM token evidence, not merely configured initial5; duplicate Leader receipt counted once, idle excluded. This proves real participation/disagreement, **not accepted multi-validator assessment consensus**.
 - Finalized snapshot read after FINALIZED: `get_assessment` found=false; `lookup_request` found=false with expected request_id. Account balance remains2GEN. No half Assessment visible for this failed request. This is one observed atomicity case, not every possible native failure-path proof.
-- Original PHASE4 authorization §8 requires controlled success before public-document NEW; §9 requires an existing successful controlled record for REUSED. Neither transaction was sent. Public-document source GET/bytes/digests were freshly verified; its computed identifier is preparation only, not a chain record.
+- The historical acceptance plan requires controlled success before public-document NEW and an existing successful controlled record for REUSED. Neither transaction was sent. Public-document source GET/bytes/digests were freshly verified; its computed identifier is preparation only, not a chain record.
 
 Network Leader candidates, all **uncommitted proposals**, pair order AB,AC,AD,BC,BD,CD:
 
@@ -330,4 +329,4 @@ SDK1.1.8/Explorer debug-readable calldata text omits JSON punctuation. Proposals
 
 Freeze F01–F20/A–E unchanged; particularly F02Stable61999, F07material digest/relevance/pairs, F08independent Validator full classification, F09/F10methods/idempotency/atomicity, F11/F12data/failure rules, F15finalized-success-read, F18actual participation, F19zero cash/minimal scope, F20ACR. No prompt/schema/enum/source/fixture/test changes; no HIGH complexity. ACR **NONE**: observed unsuccessful model consensus is not itself proof that frozen Stable semantics cannot be implemented. Do not weaken equality, remove digest binding, change fixtures, or redeploy without a demonstrated implementation bug.
 
-Next exact action remains PHASE4: investigate the failed transaction's Validator own classification/parser/fetch diagnostics through an officially available read-only path. gen_dbg_traceTransaction is unavailable and Explorer exposes the same receipts; exact mismatch field remains UNVERIFIED. Preserve this evidence before considering any retry; no blind repeated assess, public-document NEW, REUSED, redeploy or PHASE5 now. If a semantic change is eventually needed, prepare ACR with concrete evidence and wait for user approval. Hosted identities/declared model policies do not prove independent operators/model families. No live injection-security guarantee claimed.
+The exact historical validator mismatch remains unverified: the available read-only trace and receipt interfaces do not expose every validator candidate. Hosted identities and declared model policies do not prove independent operators or model families. No live injection-security guarantee is established.

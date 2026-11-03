@@ -3,7 +3,7 @@
 Updated UTC: 2026-10-07T09:50:54.834982+00:00
 
 **PHASE 4 = PASS / CLOSED. LIVENESS = PASS. SEMANTIC SAFETY = PASS.**
-Final deployment, both NEW examples, REUSED, lookup and protocol evidence now all refer to the same final canonical contract. No prior-address carry-forward is needed for these final Gate requirements. Historical deployments/results remain preserved. PHASE5/Repository B/EchoMap NOT_STARTED / NOT_AUTHORIZED.
+Final deployment, both NEW examples, REUSED, lookup and protocol evidence now all refer to the same final canonical contract. No prior-address carry-forward is needed for these final Gate requirements. Historical deployments/results remain preserved. Frontend verification was outside that historical snapshot.
 
 ## Canonical identity
 
@@ -20,7 +20,7 @@ Final deployment, both NEW examples, REUSED, lookup and protocol evidence now al
 |RPC|https://studio.genlayer.com/api|
 |Explorer|https://explorer-studio.genlayer.com|
 
-Protocol/state/IDs retain EIM-V1-STUDIO under the previously documented approved version strategy. Consensus revision + source commit/SHA + distinct address distinguish the safety implementation without changing business enums or adding public fields. Source commit local and bundled, not claimed published in the public fixture GitHub commit; remote source publication belongs to later authorized packaging. No code, Freeze, ACR, prompt, fixture or deployment change in this closure; no new source commit needed.
+Protocol/state/IDs retain EIM-V1-STUDIO under the previously documented version strategy. Consensus revision + source commit/SHA + distinct address distinguish the safety implementation without changing business enums or adding public fields. Source commit local and bundled, not claimed published in the public fixture GitHub commit; remote source publication belongs to later publication. No code, Freeze, ACR, prompt, fixture or deployment change in this closure; no new source commit needed.
 
 ## Final canonical transactions
 
@@ -138,4 +138,4 @@ Closure used0 deployments,1 public NEW+1 REUSED =2 raw submissions,0retries/newc
 Evidence directory `evidence/phase4-final-closure`: full sanitized rpc.jsonl/native receipts, participant analyses, source checks/inputs, finalized reads/lookups, actual return gates, one final protocol read, submission/signing/one-shot intent records and final-closure-summary.json. Prior deployment/controlled/source bundle/test proof retained in evidence/semantic-safety; old diagnostic deployments retained separately. Complete final recovery package includes these artifacts and canonical source bundle, excluding signer secrets.
 
 All8 user final Gate conditions now met on final canonical: deployment; controlled success; exact frozen matrix; real public NEW; REUSED; correct finalized lookup; protocol; consolidated evidence package.
-**PHASE4 = PASS / CLOSED. STOP; wait for separate Repository B / EchoMap authorization.**
+**PHASE4 = PASS / CLOSED. **

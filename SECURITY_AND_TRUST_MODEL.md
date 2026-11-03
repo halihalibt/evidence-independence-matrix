@@ -1,6 +1,6 @@
 # Security and trust model
 
-The approved Freeze plus ACR-001 and its safety tightening govern the unchanged implementation.
+The Freeze plus ACR-001 and its safety tightening govern the unchanged implementation.
 
 Leader fetches every allowed URL, normalizes and hashes the exact analyzed text, classifies relevance/all pairs once, then strictly parses and validates a canonical candidate. The custom run_nondet_unsafe Validator independently fetches/normalizes/hashes those sources; read_status, digest, schema, index, URL and ordering must match exactly. It verifies each proposed relevance and pair label under the same evidence rules. It receives labels, not Leader reasoning, and does not regenerate an identical matrix.
 
