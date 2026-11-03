@@ -57,7 +57,7 @@ Evidence: evidence/semantic-safety/semantic-safety-summary.json, local-safety-ga
 Old contract `0x6DbdE095C83a68B7932f7dE80Ba0642043F5Ce03` retained as **SUPERSEDED PHASE-4 DIAGNOSTIC DEPLOYMENT**, no new assess sent to it. New canonical contract **`0xbA3F0E8E45caF7665F0532313021Bb1B93b3c6eC`**, Stable Studionet **61999** only. New deployment source commit **`f80ac8d3e50691e9b0e98d748dbb8da38acb8026`**; deployed source SHA256 **`eecc81488ccb5785f1e7093174152e04885b0d57f530abaee60e28f466d3838c`** matches the committed file exactly. Native schema equals frozen four-method schema; latest-final get_protocol_info returns EIM-V1-STUDIO / EIM-CANDIDATE-V1 and unchanged limits/source rules.
 
 ### Protocol identity / version strategy
-Business protocol EIM-V1-STUDIO remains unchanged because classification definitions, state format and canonical ID algorithms/preimages are preserved. Consensus identity is explicitly **ACR-001 + source commit/SHA + new contract address**, recorded in canonical.json and this deployment report. This follows the user's explicitly allowed no-version-bump option with an explanation; it does not claim old/new consensus are interchangeable. No extra public schema field or expanded version system. Old manifest and original Freeze remain intact. The source commit is local and recoverable from acr001-source.bundle; not claimed present in the public fixture publishing commit.
+Business protocol EIM-V1-STUDIO remains unchanged because classification definitions, state format and canonical ID algorithms/preimages are preserved. Consensus identity is explicitly **ACR-001 + source commit/SHA + new contract address**, recorded in canonical.json and this deployment report. The unchanged business identifier does not make the old and revised consensus interchangeable. No extra public schema field or expanded version system. Old manifest and original Freeze remain intact. The source commit is local and recoverable from acr001-source.bundle; not claimed present in the public fixture publishing commit.
 
 ### Actual transactions
 
@@ -197,7 +197,7 @@ SDK1.1.8/Explorer debug-readable calldata text omits JSON punctuation. Proposals
 - `phase4-continuation-summary.json`: Gate and verified/unverified distinction.
 - `CONTROL/evidence/phase4/fixture-publication.jpg`, `controlled-explorer.jpg`: actual Browser screenshots.
 - Prior deployment/faucet/source/schema/protocol/Gitbundle and211-test evidence remain preserved. PRE_PUBLICATION report snapshots preserve previous checkpoint. Private signer is excluded from every report/package.
-## Limits / Change Control / Next Action
+## Historical diagnostic limits
 
 Freeze F01–F20/A–E unchanged; particularly F02Stable61999, F07material digest/relevance/pairs, F08independent Validator full classification, F09/F10methods/idempotency/atomicity, F11/F12data/failure rules, F15finalized-success-read, F18actual participation, F19zero cash/minimal scope, F20ACR. No prompt/schema/enum/source/fixture/test changes; no HIGH complexity. ACR **NONE**: observed unsuccessful model consensus is not itself proof that frozen Stable semantics cannot be implemented. Do not weaken equality, remove digest binding, change fixtures, or redeploy without a demonstrated implementation bug.
 
